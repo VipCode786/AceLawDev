@@ -403,6 +403,9 @@ html, body {
   .hero .heroRight {
     width: 100vw;
   }
+  .hero .heroRight .personCard {
+    margin-left: 0%;
+  }
   .hero .heroRight img {
     margin-top: -1%;
     width: 100%;
