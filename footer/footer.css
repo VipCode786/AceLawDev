@@ -1,0 +1,137 @@
+.rowCopyright {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: #451F1F;
+  mix-blend-mode: normal;
+  height: 50px;
+  width: 100%;
+}
+.rowCopyright p {
+  margin-left: 200rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14rem;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  font-feature-settings: "salt" on, "liga" off;
+  /* Text / Gray 300 */
+  color: #D9DBE1;
+}
+.rowCopyright .footer-menu {
+  float: right;
+  margin-right: 200rem;
+  letter-spacing: 1rem;
+}
+.rowCopyright .footer-menu a {
+  color: #cfd2d6;
+  padding: 6px;
+  text-decoration: none;
+}
+.rowCopyright .footer-menu a i {
+  height: 30rem;
+  width: 300rem;
+}
+.rowCopyright .footer-menu .fa-brands {
+  height: 300rem;
+  width: 300rem;
+}
+
+.footer {
+  background: linear-gradient(180deg, #451F1F 0%, #924545 100%);
+}
+.footer footer {
+  margin-left: 160rem;
+  margin-right: 160rem;
+}
+.footer footer .lastlogo {
+  margin-top: -20rem;
+}
+.footer .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer .row .column {
+  margin: 20px;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+.footer .row .column a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16rem;
+  line-height: 19px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.025em;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 10rem;
+}
+.footer .row .column h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35rem;
+  line-height: 24rem;
+  letter-spacing: 0.025rem;
+  margin-bottom: 25rem;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 850px) {
+  .footer {
+    background: linear-gradient(180deg, #451F1F 0%, #924545 100%);
+  }
+  .footer footer {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  .rowCopyright {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #451F1F;
+    mix-blend-mode: normal;
+    height: auto;
+    width: 100%;
+  }
+  .rowCopyright p {
+    margin-left: 2rem;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14rem;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    font-feature-settings: "salt" on, "liga" off;
+    /* Text / Gray 300 */
+    color: #D9DBE1;
+  }
+  .rowCopyright .footer-menu {
+    float: right;
+    margin-right: 2rem;
+    letter-spacing: 1rem;
+  }
+  .rowCopyright .footer-menu a {
+    color: #cfd2d6;
+    padding: 6px;
+    text-decoration: none;
+  }
+  .rowCopyright .footer-menu a i {
+    height: 30rem;
+    width: 300rem;
+  }
+  .rowCopyright .footer-menu .fa-brands {
+    height: 300rem;
+    width: 300rem;
+  }
+}/*# sourceMappingURL=footer.css.map */

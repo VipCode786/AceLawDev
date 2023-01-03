@@ -1,0 +1,201 @@
+@import '../css/mixins';
+
+
+
+.header{
+  margin-top: 20rem;
+  // margin-left: 232rem;
+  // margin-right: 232rem;
+  align-items: center;
+  @include flex-row-space-between-nowrap;
+    .logo{
+      // width: 182rem;
+      height: 109.2rem;
+      margin-left: 250rem;
+      img{
+        width: 100%;
+      height: 100%;
+      }
+    }
+  .menubar{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15rem;
+    line-height: 23rem;
+    /* identical to box height, or 153% */
+    margin-left: 123rem;
+    letter-spacing: 1.5rem;
+
+    /* Neutral / Grey 7 */
+
+    color: #2D2F30;
+    a{
+      color: #2D2F30;
+      margin-left: 32rem;
+    }
+      }
+
+      
+
+
+.topnav {
+  // overflow: hidden;
+  // margin-left: 123rem;
+  background-color: #333;
+  position: relative;
+  @include flex-column-center;
+
+
+
+ a {
+  color: white;
+  padding: 14rem 16rem;
+  text-decoration: none;
+  font-size: 17rem;
+  text-align:center;
+  display: none;
+}
+
+ a.icon {
+  background: black;
+  display: none;
+ 
+  right: 0;
+  top: 0;
+}
+
+
+
+}
+}
+
+#myLinks {
+  background-color: #e4c70e;
+  @include flex-column-center;
+  a {
+
+    color: black;
+    padding: 14rem 16rem;
+    text-decoration: none;
+    font-size: 37rem;
+    text-align:center;
+    display: block;
+    
+  }
+
+}
+
+
+@media screen and (max-width:850px) {
+    .header{
+      margin-left: 50rem;
+      margin-right: 10rem;
+        .logo{
+          margin-left: 0rem
+        }
+      @include flex-row-space-between-nowrap;
+      .menubar{
+        display: none;
+        margin-left: 50rem;
+      }
+
+      .topnav{
+        margin-left: 50rem;
+        a.icon{
+          display: block;
+        }
+      }
+    }
+}
+
+
+// .logo{
+//     height: 1rem;
+//     width: 2rem;
+//   }
+//   .nav1{
+//     /* background: #0082e6; */
+//     height: 80rem;
+//     width: 100%;
+//   }
+//   label.logo{
+   
+//     line-height: 80rem;
+//     padding: 0 100rem;
+   
+//   }
+//   // .nav1 .nav3{
+//   //   float: right;
+//   //   margin-right: 20rem;
+//   // }
+//   .nav1 .nav3 .nav2{
+//     display: inline-block;
+//     line-height: 80rem;
+//     margin: 0 5rem;
+//   }
+//   .nav1 .nav3 .nav2 .nav5{
+//     color: black;
+//     font-size: 17rem;
+//     padding: 7rem 13rem;
+//     border-radius: 3rem;
+//     text-transform: uppercase;
+//   }
+//   .nav5.active,.nav5:hover{
+//     background: #1b9bff;
+//     transition: .5s;
+//   }
+//   .nav6{
+//     font-size: 30rem;
+//     color:black;
+//     float: right;
+//     line-height: 80rem;
+//     margin-right: 40rem;
+//     cursor: pointer;
+//     display: none;
+//   }
+//   #check{
+//     display: none;
+//   }
+//   @media (max-width: 952rem){
+//     label.logo{
+//       font-size: 30rem;
+//       padding-left: 50rem;
+//     }
+//     .nav1 .nav3 .nav2 a{
+//       font-size: 16rem;
+//     }
+//   }
+//   @media screen and (max-width: 858rem){
+//     .nav6{
+//       display: block;
+//     }
+//     .nav3{
+//       position: fixed;
+//       width: 100%;
+//       height: 100vh;
+//       background:aqua;
+//       top: 80rem;
+//        left: -120%;
+//       text-align: center;
+//       transition: all .5s;
+//     }
+//     .nav1 .nav3 .nav2{
+//       display: block;
+//       margin: 50rem -20%;
+//       line-height: 30rem;
+//     }
+//     .nav1 .nav3 .nav2 .nav5{
+//       font-size: 20rem;
+//     }
+//     a:hover,a.active{
+//     //   background: none;
+//       color: #0082e6;
+//     }
+//     #check:checked ~ .nav3{
+//         left: 0%;
+//     }
+//   }
+
+  

@@ -1,0 +1,515 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* ************************main page**************************** */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@100;300&display=swap");
+.card {
+  background-color: white;
+  width: 20rem;
+  overflow: hidden;
+  margin: 2rem;
+  box-shadow: 5px 5px 5px 5px #000;
+  border-radius: 0.5rem;
+}
+.card img {
+  height: 15rem;
+  background-size: cover;
+  background-position: center;
+}
+.card .card_content {
+  padding: 2rem;
+}
+.card .card_title {
+  margin: 0;
+  color: black;
+}
+.card .card_description {
+  margin: 0;
+  color: #999;
+}
+.card_dark {
+  background-color: black;
+}
+.card_dark .card_title {
+  color: white;
+}
+
+html {
+  font-size: 6.25%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+html, body {
+  max-width: 100%;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: url("../images/background.png") no-repeat;
+  background-position: right;
+  padding-top: 2%;
+  margin-top: -2%;
+}
+.hero .heroLeft {
+  margin-left: -10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.hero .heroLeft .heroHeading {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90rem;
+  line-height: 120%;
+  /* or 108rem */
+  letter-spacing: 0.02em;
+  max-width: 911.78rem;
+  color: #451F1F;
+  margin-bottom: 20rem;
+}
+.hero .heroLeft .heroP {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24rem;
+  line-height: 158%;
+  /* or 38rem */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.5rem;
+  /* Neutral / Grey 6 */
+  margin-bottom: 20rem;
+  color: #4F4F4F;
+}
+.hero .heroLeft .heroButton {
+  width: 285.46rem;
+  height: 80rem;
+  background: #451F1F;
+  border-radius: 8rem;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16rem;
+  line-height: 140.5%;
+  /* or 22px */
+  align-items: center;
+  text-align: center;
+  padding-top: 20rem;
+  color: #F9F8F9;
+}
+.hero .heroRight img {
+  margin-top: 25%;
+}
+.hero .heroRight .personCard {
+  width: 382px;
+  height: 114px;
+  left: 851px;
+  top: 834.51px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  filter: drop-shadow(0px 39px 100px rgba(25, 62, 108, 0.12));
+  margin-left: 8%;
+  align-items: center;
+}
+.hero .heroRight .personCard .name {
+  padding-top: 8%;
+  margin-top: -2%;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  color: #451F1F;
+}
+.hero .heroRight .personCard .degination {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 36px;
+  /* identical to box height, or 225% */
+  text-align: center;
+  color: #87898C;
+}
+
+.afterHero {
+  background-color: #FFE8BB;
+  width: 100%;
+}
+.afterHero .heading {
+  max-width: 419.31px;
+  margin-left: 15%;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.323077px;
+  margin-bottom: 30rem;
+  /* Neutral / Grey 7 */
+  color: #2D2F30;
+}
+.afterHero .content {
+  margin-left: 10%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 143.02%;
+  /* or 29px */
+  max-width: 500rem;
+  letter-spacing: 0.323077px;
+  margin-bottom: 30rem;
+  color: #767676;
+}
+.afterHero .boxes {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.afterHero .boxes .box {
+  flex: 1 1 0;
+  margin: 20rem;
+  width: 260px;
+  height: 270px;
+  left: 222px;
+  top: 1402px;
+  background: #FCFCFC;
+  box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+.afterHero .boxes .box .circleBG {
+  width: 69px;
+  height: 71px;
+  padding: 10rem;
+}
+.afterHero .boxes .box .circleBG img {
+  width: 100%;
+  height: 100%;
+}
+.afterHero .boxes .box .boxheading {
+  width: 181px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22px;
+  /* or 100% */
+  letter-spacing: 0.5px;
+  /* Text */
+  color: #363940;
+  padding: 10rem;
+}
+.afterHero .boxes .box p {
+  width: 210px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 133.11%;
+  /* or 19px */
+  padding: 10rem;
+  margin-top: -10rem;
+  /* Neutral / Grey 5 */
+  color: #8B8C8C;
+}
+.afterHero .boxes .box .arrow {
+  width: 44px;
+  margin-top: -10rem;
+  padding: 10rem;
+  float: right;
+}
+.afterHero .boxes .box .arrow img {
+  width: 100%;
+}
+
+.counterBG {
+  background-image: url("../images/BG.png");
+  padding: 50rem;
+}
+.counterBG .counterHeading {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  letter-spacing: 0.005em;
+  font-feature-settings: "salt" on, "liga" off;
+  /* Default / White */
+  color: #FFFFFF;
+}
+.counterBG p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  /* identical to box height, or 178% */
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-feature-settings: "salt" on, "liga" off;
+  /* Default / White */
+  color: #FFFFFF;
+}
+.counterBG .counter {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.counterBG .counter img {
+  margin-left: 50rem;
+  margin-right: 50rem;
+}
+.counterBG .counter .count {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  /* Default / White */
+  color: #FFFFFF;
+}
+
+.getInTouch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50rem;
+}
+.getInTouch .column .heading {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48rem;
+  line-height: 64rem;
+  /* or 133% */
+  padding: 10rem;
+  letter-spacing: 0.5rem;
+  font-feature-settings: "salt" on, "liga" off;
+}
+.getInTouch .column .content {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24rem;
+  line-height: 36rem;
+  /* or 150% */
+  max-width: 684rem;
+  letter-spacing: 0.5rem;
+  padding: 20rem;
+  color: #4F4F4F;
+}
+.getInTouch .column .button {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22rem;
+  line-height: 36rem;
+  letter-spacing: 0.5rem;
+  /* Neutral / Grey 1 */
+  background: #451F1F;
+  border-radius: 8px;
+  color: #F9F8F9;
+  width: 219rem;
+  height: 64rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 17rem;
+  padding: 10rem;
+  margin-left: 20rem;
+}
+.getInTouch .column .button img {
+  height: 25rem;
+  margin-top: 10rem;
+}
+.getInTouch .contactPerson {
+  width: 439.75rem;
+  height: 383.34rem;
+  margin-left: 100rem;
+}
+.getInTouch .contactPerson img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 750px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: top;
+    background-size: contain;
+  }
+  .hero .heroLeft {
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .hero .heroLeft .heroHeading {
+    font-size: 60rem;
+  }
+  .hero .heroLeft .heroButton {
+    width: 200rem;
+    height: 60rem;
+    background: #451F1F;
+    border-radius: 8rem;
+  }
+  .hero .heroRight {
+    width: 100vw;
+  }
+  .hero .heroRight img {
+    margin-top: -1%;
+    width: 100%;
+    height: 400px;
+  }
+  .afterHero .boxes .box {
+    flex: 1 1 0;
+  }
+  .afterHero .boxes .box p {
+    width: auto;
+  }
+  .counterBG {
+    padding: 5rem;
+  }
+  .counterBG .counterHeading {
+    font-size: 20rem;
+  }
+  .counterBG p {
+    font-size: 16rem;
+    padding-bottom: 25rem;
+  }
+  .counterBG img {
+    transform: rotate(90deg);
+  }
+  .counterBG .counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .counterBG .counter .count {
+    font-size: 30rem;
+    padding: 0rem;
+    line-height: 20rem;
+  }
+  .getInTouch {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 50rem;
+  }
+  .getInTouch .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .getInTouch .column .heading {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30rem;
+    line-height: 64rem;
+    /* or 133% */
+    padding: 5rem;
+    letter-spacing: 0.5rem;
+    font-feature-settings: "salt" on, "liga" off;
+  }
+  .getInTouch .column .content {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15rem;
+    line-height: 18rem;
+    /* or 150% */
+    max-width: 684rem;
+    letter-spacing: 0.5rem;
+    padding: 10rem;
+    color: #4F4F4F;
+  }
+  .getInTouch .column .button {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22rem;
+    line-height: 18rem;
+    letter-spacing: 0.5rem;
+    /* Neutral / Grey 1 */
+    background: #451F1F;
+    border-radius: 8px;
+    color: #F9F8F9;
+    width: 219rem;
+    height: 44rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 27rem;
+    padding: 10rem;
+    margin-left: 20rem;
+  }
+  .getInTouch .column .button img {
+    height: 15rem;
+    margin-top: 1rem;
+  }
+  .getInTouch .contactPerson {
+    width: 239.75rem;
+    height: 183.34rem;
+    margin-left: 0rem;
+    margin-top: 10rem;
+  }
+  .getInTouch .contactPerson img {
+    width: 100%;
+    height: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */

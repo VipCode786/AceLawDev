@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.testimonialDiv {
+  background: #FFF4DF;
+  padding: 50px;
+  /* img{height: 50px;width: 130px;object-fit: cover;border-radius: 50%!important;
+      border: 5px solid darkorange;} */
+  /* .owl-prev i, .owl-next i {transform : scale(2,5); color: #ccc;} */
+}
+.testimonialDiv .heading {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  /* or 133% */
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-feature-settings: "salt" on, "liga" off;
+  /* Neutral / Grey 7 */
+  color: #2D2F30;
+}
+.testimonialDiv .owl-carousel .nav-button {
+  height: 50px;
+  width: 25px;
+  cursor: pointer;
+  position: absolute;
+  top: 110px !important;
+}
+.testimonialDiv .owl-carousel .owl-prev.disabled,
+.testimonialDiv .owl-carousel .owl-next.disabled {
+  pointer-events: none;
+  opacity: 0.25;
+}
+.testimonialDiv .owl-carousel .owl-prev {
+  left: -35px;
+  height: 0px;
+  margin-top: -30px;
+}
+.testimonialDiv .owl-carousel .owl-next {
+  right: -35px;
+  height: 0px;
+  margin-top: -30px;
+}
+.testimonialDiv .owl-theme .owl-nav [class*=owl-] {
+  color: #ffffff;
+  font-size: 39px;
+  background: #000000;
+  border-radius: 3px;
+}
+.testimonialDiv .owl-carousel .prev-carousel:hover {
+  background-position: 0px -53px;
+}
+.testimonialDiv .owl-carousel .next-carousel:hover {
+  background-position: -24px -53px;
+}
+.testimonialDiv .imgHolder {
+  height: 60rem;
+  width: 60rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  /* position: absolute; */
+  /* left: -30px;
+  top: -30px; */
+}
+.testimonialDiv .testimonialDiv .owl-carousel .owl-item img {
+  border-radius: 50%;
+  height: 160px;
+  display: block;
+  width: 160px;
+}
+.testimonialDiv .owl-carousel .owl-item {
+  /* height: 506px; */
+  width: 506px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.testimonialDiv .carousel-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+.testimonialDiv .item-testimonials {
+  background-color: linen;
+  /* padding:50px 30px 15px; */
+  /* width: 500px; */
+  margin: 20px;
+  height: 220px;
+  position: relative;
+  border-radius: 10px;
+  /* box-shadow: 10px 10px 18px rgb(54, 54, 54); */
+  /* margin-left: 27px; */
+}
+.testimonialDiv .owl-prev, .testimonialDiv .owl-next {
+  width: 15px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block !important;
+  border: 0px solid black;
+}
+.testimonialDiv .owl-prev {
+  left: -20px;
+}
+.testimonialDiv .owl-next {
+  right: -20px;
+}
+.testimonialDiv .owl-nav i {
+  font-size: 152px;
+}
+.testimonialDiv .item-testimonials:after {
+  content: " ";
+  position: absolute;
+  right: 230px;
+  bottom: -15px;
+  border-top: 15px solid linen;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-bottom: none;
+}
+.testimonialDiv .item-testimonials .quote {
+  position: absolute;
+  bottom: 0;
+  right: 60px;
+  font-size: 40px;
+  color: darkorange;
+}
+.testimonialDiv .item-testimonials ul.stars {
+  margin-top: 20px;
+  padding: 0;
+  padding-left: 80px;
+}
+.testimonialDiv .item-testimonials ul.stars li {
+  display: inline-block;
+}
+.testimonialDiv .item-testimonials ul.stars li i {
+  color: darkorange;
+}
+.testimonialDiv .item-testimonials .heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  /* Neutral / Grey 8 */
+  padding: 10rem;
+  color: #151617;
+}
+.testimonialDiv .item-testimonials p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-feature-settings: "salt" on, "liga" off;
+  /* Neutral / Grey 6 */
+  padding: 20rem;
+  color: #4F4F4F;
+}
+.testimonialDiv .items .carousel-row .author {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  font-feature-settings: "salt" on, "liga" off;
+  /* Neutral / Grey 8 */
+  color: #151617;
+}
+.testimonialDiv .items .carousel-row .designation {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  font-feature-settings: "salt" on, "liga" off;
+  /* Neutral / Grey 6 */
+  color: #4F4F4F;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.testimonialDiv .owl-dot {
+  width: 15px;
+  height: 15px;
+  background-color: transparent !important;
+  border: 1px solid black !important;
+  margin-left: 7px;
+  border-radius: 50%;
+}
+.testimonialDiv .owl-dot.active {
+  width: 15px;
+  height: 15px;
+  background-color: #FAAF18 !important;
+  border: 1px solid black !important;
+  border-radius: 50%;
+}
+.testimonialDiv .owl-dots {
+  text-align: center;
+}
+.testimonialDiv .owl-carousel .nav-button {
+  height: 70px;
+  width: 25px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px !important;
+}
+.testimonialDiv .owl-carousel .owl-prev {
+  left: 0px;
+}
+.testimonialDiv .owl-carousel .owl-next {
+  right: 0px;
+}
+.testimonialDiv .owl-carousel .owl-item img {
+  border-radius: 50%;
+  height: 50px;
+  display: block;
+  width: 50px;
+}
+.testimonialDiv .owl-stage-outer .items {
+  margin: 0%;
+}
+
+@media screen and (max-width: 850px) {
+  .testimonialDiv .heading {
+    font-size: 30rem;
+  }
+  .testimonialDiv .item-testimonials {
+    height: 400rem;
+  }
+  .testimonialDiv .item-testimonials p {
+    padding: 5rem;
+  }
+}/*# sourceMappingURL=carousel.css.map */

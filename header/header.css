@@ -1,0 +1,95 @@
+.header {
+  margin-top: 20rem;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.header .logo {
+  height: 109.2rem;
+  margin-left: 250rem;
+}
+.header .logo img {
+  width: 100%;
+  height: 100%;
+}
+.header .menubar {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15rem;
+  line-height: 23rem;
+  /* identical to box height, or 153% */
+  margin-left: 123rem;
+  letter-spacing: 1.5rem;
+  /* Neutral / Grey 7 */
+  color: #2D2F30;
+}
+.header .menubar a {
+  color: #2D2F30;
+  margin-left: 32rem;
+}
+.header .topnav {
+  background-color: #333;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header .topnav a {
+  color: white;
+  padding: 14rem 16rem;
+  text-decoration: none;
+  font-size: 17rem;
+  text-align: center;
+  display: none;
+}
+.header .topnav a.icon {
+  background: black;
+  display: none;
+  right: 0;
+  top: 0;
+}
+
+#myLinks {
+  background-color: #e4c70e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#myLinks a {
+  color: black;
+  padding: 14rem 16rem;
+  text-decoration: none;
+  font-size: 37rem;
+  text-align: center;
+  display: block;
+}
+
+@media screen and (max-width: 850px) {
+  .header {
+    margin-left: 50rem;
+    margin-right: 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .header .logo {
+    margin-left: 0rem;
+  }
+  .header .menubar {
+    display: none;
+    margin-left: 50rem;
+  }
+  .header .topnav {
+    margin-left: 50rem;
+  }
+  .header .topnav a.icon {
+    display: block;
+  }
+}/*# sourceMappingURL=header.css.map */

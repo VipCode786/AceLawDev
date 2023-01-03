@@ -1,0 +1,58 @@
+html {
+  font-size: 6.25%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+html, body {
+  max-width: 100%;
+}
+
+.privacyPolicy {
+  margin-top: 50rem;
+}
+.privacyPolicy .heading {
+  margin-left: 12%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 23px;
+  color: #FAAF18;
+}
+.privacyPolicy .border {
+  height: 7px;
+  background-color: #FAAF18;
+}
+.privacyPolicy .content {
+  margin-left: 12%;
+  margin-right: 12%;
+}
+.privacyPolicy .content .head {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FAAF18;
+}
+.privacyPolicy .content p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 15px;
+  line-height: 23px;
+  /* or 115% */
+}
+.privacyPolicy .content ul li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 15px;
+  line-height: 23px;
+}/*# sourceMappingURL=privacyPolicy.css.map */
