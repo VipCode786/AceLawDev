@@ -1,4 +1,4 @@
-.anileft1 {
+.anileft {
   -webkit-animation: moverleft 2s 1;
   animation: moverleft 2s 1;
 }
@@ -20,7 +20,7 @@
     transform: translateX(0px);
   }
 }
-.aniright1 {
+.aniright {
   -webkit-animation: mover 2s 1;
   animation: mover 2s 1;
 }
