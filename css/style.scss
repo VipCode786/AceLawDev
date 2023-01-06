@@ -28,13 +28,14 @@ body{
      list-style: none;
      box-sizing: border-box;
      //  max-width: 1584px;
-      overflow-x: hidden;
+     //  overflow-x: hidden;
      justify-content: center;
    }
    html, body {
      max-width: 100%;
-      overflow-x: hidden;
+     //  overflow-x: hidden;
  }
+ 
   .center{
      display: flex;
     flex-direction: column;

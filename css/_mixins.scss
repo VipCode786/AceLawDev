@@ -48,6 +48,13 @@
       justify-content: space-between;
 }
 
+@mixin flex-row-space-around-nowrap {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+}
+
 @mixin flex-row-space-between-wrap {
       display: flex;
       flex-direction: row;

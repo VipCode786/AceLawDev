@@ -19,7 +19,9 @@ body{
     // overflow-x: hidden;
 }
 
-
+.iti{
+    margin-bottom: 10rem;
+}
 .iti__country {
     padding: 5px 10px;
     outline: none;
@@ -42,7 +44,7 @@ body{
         margin-top: 5%;
         margin-bottom: 2%;
         padding: 25rem;
-    .form{
+    .from{
 
         @include flex-column-start;
         h1{
@@ -71,11 +73,12 @@ body{
             color: #000000;
         }
 
+        form{
         input{
             width: 430rem;
             height: 50rem;
             // margin-top: calc(50% - 50rem/2 - 303rem);
-            
+            margin-bottom: 10rem;
             background: #F5F5FF;
             border: 0rem solid;
             ::placeholder{
@@ -112,7 +115,7 @@ body{
             // top: calc(50% - 125rem/2 - 45.5rem);
             border: 0rem solid;
             background: #F5F5FF;
-
+            margin-bottom: 10rem;
             ::placeholder{
                 font-family: 'Poppins';
                 font-style: normal;
@@ -120,7 +123,7 @@ body{
                 font-size: 12rem;
                 line-height: 18rem;
                 /* identical to box height */
-
+               
                 letter-spacing: 0.08em;
 
                 color: #9F9F9F;
@@ -131,7 +134,7 @@ body{
             outline: none;
         }
     }
-
+    }
         .contactInfoMap{
             align-self: flex-end;
 
@@ -176,12 +179,12 @@ body{
     .contactUs{
         .contactBox{
             @include flex-column-center;
-            .form{
+            .from{
                 input{
-                    width: 300rem;
+                   max-width: 70vw;
                 }
                 textarea{
-                    width: 300rem;
+                    max-width: 70vw;
                 }
             }
 
@@ -190,7 +193,7 @@ body{
                 align-self:center;
                 .map{
                   
-                    width: 300px;
+                    max-width: 70vw;
 
                 }
             }

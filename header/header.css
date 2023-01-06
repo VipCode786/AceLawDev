@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .header .logo {
   height: 109.2rem;
@@ -15,6 +15,13 @@
   height: 100%;
 }
 .header .menubar {
+  margin-left: 123rem;
+  /* Neutral / Grey 7 */
+  color: #2D2F30;
+}
+.header .menubar a {
+  color: #2D2F30;
+  margin-left: 32rem;
   text-align: center;
   font-family: "Poppins";
   font-style: normal;
@@ -22,14 +29,48 @@
   font-size: 15rem;
   line-height: 23rem;
   /* identical to box height, or 153% */
-  margin-left: 123rem;
   letter-spacing: 1.5rem;
-  /* Neutral / Grey 7 */
-  color: #2D2F30;
 }
-.header .menubar a {
+.header .menubar button {
+  border: none;
+  background: none;
+  margin-left: 32rem;
   color: #2D2F30;
   margin-left: 32rem;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15rem;
+  line-height: 23rem;
+  /* identical to box height, or 153% */
+  letter-spacing: 1.5rem;
+}
+.header .menubar .dropdown-content {
+  display: none;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.header .menubar .dropdown-content a {
+  color: #2D2F30;
+  margin-left: 32rem;
+  white-space: nowrap;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15rem;
+  line-height: 23rem;
+  /* identical to box height, or 153% */
+  letter-spacing: 1.5rem;
+}
+.header .menubar button:hover .dropdown-content {
+  display: flex;
+}
+.header .menubar .dropdown-content:hover {
+  display: flex;
 }
 .header .topnav {
   background-color: #333;
@@ -68,6 +109,38 @@
   font-size: 37rem;
   text-align: center;
   display: block;
+}
+#myLinks .dropdown {
+  color: black;
+  padding: 14rem 16rem;
+  text-decoration: none;
+  font-size: 37rem;
+  text-align: center;
+  display: block;
+  background: none;
+  line-height: 28rem;
+}
+#myLinks button {
+  border: none;
+  margin-left: 32rem;
+  background: none;
+}
+#myLinks .dropdown-content {
+  display: none;
+  position: absolute;
+  flex-direction: column;
+  position: absolute;
+  background: #7c0202;
+  margin-left: -46rem;
+}
+#myLinks .dropdown-content a {
+  color: #ffffff;
+}
+#myLinks button:hover .dropdown-content {
+  display: flex;
+}
+#myLinks .dropdown-content:hover {
+  display: flex;
 }
 
 @media screen and (max-width: 850px) {

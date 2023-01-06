@@ -32,13 +32,16 @@ body{
             width: 308rem;
             height: 98rem;
             
-            
+            filter: blur(10px);
             background: #472222;
             display: flex;
             justify-content: center;
             align-items: center;
             // backdrop-filter: blur(8rem);
-             p{
+            
+        }
+
+        p{
             font-family: 'Playfair Display';
             font-style: normal;
             font-weight: 700;
@@ -51,7 +54,6 @@ body{
             color: #FFFFFF;
 
              }
-        }
     }
 
     .content{

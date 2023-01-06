@@ -7,7 +7,7 @@
   // margin-left: 232rem;
   // margin-right: 232rem;
   align-items: center;
-  @include flex-row-space-between-nowrap;
+  @include flex-row-space-around-nowrap;
     .logo{
       // width: 182rem;
       height: 109.2rem;
@@ -18,15 +18,7 @@
       }
     }
   .menubar{
-    text-align: center;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15rem;
-    line-height: 23rem;
-    /* identical to box height, or 153% */
     margin-left: 123rem;
-    letter-spacing: 1.5rem;
 
     /* Neutral / Grey 7 */
 
@@ -34,6 +26,71 @@
     a{
       color: #2D2F30;
       margin-left: 32rem;
+
+      text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15rem;
+    line-height: 23rem;
+    /* identical to box height, or 153% */
+   
+    letter-spacing: 1.5rem;
+    }
+
+
+    button{
+      border: none;
+      background: none;
+      margin-left: 32rem;
+
+      color: #2D2F30;
+      margin-left: 32rem;
+
+      text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15rem;
+    line-height: 23rem;
+    /* identical to box height, or 153% */
+   
+    letter-spacing: 1.5rem;
+    }
+
+    .dropdown-content{
+      display: none;
+      position: absolute;
+      flex-direction: column;
+      justify-content: flex-start;
+     
+       
+      z-index: 1;
+
+      a{
+        
+        color: #2D2F30;
+      margin-left: 32rem;
+      white-space: nowrap;
+      text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15rem;
+    line-height: 23rem;
+    /* identical to box height, or 153% */
+   
+    letter-spacing: 1.5rem;
+      }
+    }
+    
+    button:hover .dropdown-content{
+      display: flex;
+      
+    }
+
+    .dropdown-content:hover {
+      display: flex;
     }
       }
 
@@ -84,6 +141,46 @@
     display: block;
     
   }
+.dropdown{
+  color: black;
+  padding: 14rem 16rem;
+  text-decoration: none;
+  font-size: 37rem;
+  text-align:center;
+  display: block;
+  background: none;
+  line-height: 28rem;
+}
+  
+button{
+  border: none;
+  // background-color: #ffffff;
+  margin-left: 32rem;
+  background: none;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  flex-direction: column;
+  position: absolute;
+  background: #7c0202;
+  // margin-left: 15%;
+  
+  margin-left: -46rem;
+  a{
+  color: #ffffff;
+  }
+}
+
+button:hover .dropdown-content{
+  display: flex;
+  
+}
+
+.dropdown-content:hover {
+  display: flex;
+}
 
 }
 

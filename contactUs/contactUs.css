@@ -16,6 +16,10 @@ html, body {
   max-width: 100%;
 }
 
+.iti {
+  margin-bottom: 10rem;
+}
+
 .iti__country {
   padding: 5px 10px;
   outline: none;
@@ -42,12 +46,12 @@ html, body {
   margin-bottom: 2%;
   padding: 25rem;
 }
-.contactUs .contactBox .form {
+.contactUs .contactBox .from {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.contactUs .contactBox .form h1 {
+.contactUs .contactBox .from h1 {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 600;
@@ -57,7 +61,7 @@ html, body {
   letter-spacing: 0.08rem;
   color: #451F1F;
 }
-.contactUs .contactBox .form h2 {
+.contactUs .contactBox .from h2 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -67,13 +71,14 @@ html, body {
   letter-spacing: 0.08em;
   color: #000000;
 }
-.contactUs .contactBox .form input {
+.contactUs .contactBox .from form input {
   width: 430rem;
   height: 50rem;
+  margin-bottom: 10rem;
   background: #F5F5FF;
   border: 0rem solid;
 }
-.contactUs .contactBox .form input ::-moz-placeholder {
+.contactUs .contactBox .from form input ::-moz-placeholder {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -83,7 +88,7 @@ html, body {
   letter-spacing: 0.08em;
   color: #9F9F9F;
 }
-.contactUs .contactBox .form input :-ms-input-placeholder {
+.contactUs .contactBox .from form input :-ms-input-placeholder {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -93,7 +98,7 @@ html, body {
   letter-spacing: 0.08em;
   color: #9F9F9F;
 }
-.contactUs .contactBox .form input ::placeholder {
+.contactUs .contactBox .from form input ::placeholder {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -103,7 +108,7 @@ html, body {
   letter-spacing: 0.08em;
   color: #9F9F9F;
 }
-.contactUs .contactBox .form input[type=submit] {
+.contactUs .contactBox .from form input[type=submit] {
   background: #451F1F;
   font-family: "Poppins";
   font-style: normal;
@@ -114,13 +119,14 @@ html, body {
   letter-spacing: 0.08em;
   color: #FFFFFF;
 }
-.contactUs .contactBox .form textarea {
+.contactUs .contactBox .from form textarea {
   width: 430rem;
   height: 125rem;
   border: 0rem solid;
   background: #F5F5FF;
+  margin-bottom: 10rem;
 }
-.contactUs .contactBox .form textarea ::-moz-placeholder {
+.contactUs .contactBox .from form textarea ::-moz-placeholder {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -130,7 +136,7 @@ html, body {
   letter-spacing: 0.08em;
   color: #9F9F9F;
 }
-.contactUs .contactBox .form textarea :-ms-input-placeholder {
+.contactUs .contactBox .from form textarea :-ms-input-placeholder {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -140,7 +146,7 @@ html, body {
   letter-spacing: 0.08em;
   color: #9F9F9F;
 }
-.contactUs .contactBox .form textarea ::placeholder {
+.contactUs .contactBox .from form textarea ::placeholder {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -150,7 +156,7 @@ html, body {
   letter-spacing: 0.08em;
   color: #9F9F9F;
 }
-.contactUs .contactBox .form textarea:focus, .contactUs .contactBox .form input:focus {
+.contactUs .contactBox .from form textarea:focus, .contactUs .contactBox .from form input:focus {
   outline: none;
 }
 .contactUs .contactBox .contactInfoMap {
@@ -193,17 +199,17 @@ html, body {
     align-items: center;
     justify-content: center;
   }
-  .contactUs .contactBox .form input {
-    width: 300rem;
+  .contactUs .contactBox .from input {
+    max-width: 70vw;
   }
-  .contactUs .contactBox .form textarea {
-    width: 300rem;
+  .contactUs .contactBox .from textarea {
+    max-width: 70vw;
   }
   .contactUs .contactBox .contactInfoMap {
     margin-top: 35rem;
     align-self: center;
   }
   .contactUs .contactBox .contactInfoMap .map {
-    width: 300px;
+    max-width: 70vw;
   }
 }/*# sourceMappingURL=contactUs.css.map */

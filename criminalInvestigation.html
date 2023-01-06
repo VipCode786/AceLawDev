@@ -15,6 +15,7 @@
       <link rel="stylesheet" href="constitution/constitution.css">
       <link rel="stylesheet" href="header/header.css">
       <link rel="stylesheet" href="footer/footer.css">
+      <link rel="stylesheet" href="animation/animation.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
       <link
      rel="stylesheet"
@@ -27,64 +28,96 @@
      <div >
         <div>.</div>
         <div>
-            <div class="header">
-                 
-                        <div class="logo">
-                              <img src="./header/logoImg/image.png">
-                        </div>
-                  
-                  <div class="menubar">
-                        <a>Home</a>
-                        <a>Conatct</a>
-                        <a>Practices</a>
-                        <a>About</a>
-                        <a>Blogs</a>
-                        <a>Founder's Message</a>
-                          <!-- Top Navigation Menu -->
-                              
-                  </div>
-                  <div class="topnav">
-                        
-                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                              <i class="fa fa-bars"></i>
-                            </a>
-                      
+          <div class="header">
+               
+                      <div class="logo">
+                        <a href="index.html"><img src="./header/logoImg/image.png"></a>
                       </div>
-                      <script>
-                            function myFunction() {
-                              var x = document.getElementById("myLinks");
-                              if (x.style.display === "flex") {
-                                x.style.display = "none";
-                              } else {
-                                x.style.display = "flex";
-                              }
-                            }
-                            </script>
-            </div>
-            <div id="myLinks" style="display: none;">
-                  <a href="#news">News</a>
-                  <a href="#contact">Contact</a>
-                  <a href="#about">About</a>
-            </div>
                 
-            </div>
+                <div class="menubar">
+                      <a href="index.html">Home</a>
+                      <a href="contactUs.html">Conatct</a>
+                      
+                      <button class="dropdown">Practices
+                            <i class="fa fa-caret-down"></i>
+                     
+                       <div class="dropdown-content">
+                            <a href="constitutionalLaw.html">Constitutional Law</a>
+                            <a href="litigation.html">Litigation</a>
+                            <a href="arbitration.html">Arbitration</a>
+                            <a href="criminalInvestigation.html"> Criminal Investigation</a>
+                            <a href="bankruptcy.html">Bankruptcy</a>
+                            <a href="PropertyRight.html">Intellactual Property Rights</a>
+                            <a href="consumerLaw.html">Consumer Law</a>
+                          </div>
+                      </button>
+                      <a href="aboutUs.html"> About</a>
+                      <a>Blogs</a>
+                      <a>Founder's Message</a>
+                      
+                            
+                </div>
+
+                  <!-- Top Navigation Menu -->
+                <div class="topnav">
+                      
+                      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                          </a>
+                    
+                    </div>
+                    <script>
+                          function myFunction() {
+                            var x = document.getElementById("myLinks");
+                            if (x.style.display === "flex") {
+                              x.style.display = "none";
+                            } else {
+                              x.style.display = "flex";
+                            }
+                          }
+                          </script>
+          </div>
+          <div id="myLinks" style="display: none;">
+                <a href="index.html">Home</a>
+                      <a href="contactUs.html">Conatct</a>
+                      
+                      <button class="dropdown">Practices
+                            <i class="fa fa-caret-down"></i>
+                     
+                       <div class="dropdown-content">
+                            <a href="constitutionalLaw.html">Constitutional Law</a>
+                            <a href="litigation.html">Litigation</a>
+                            <a href="arbitration.html">Arbitration</a>
+                            <a href="criminalInvestigation.html"> Criminal Investigation</a>
+                            <a href="bankruptcy.html">Bankruptcy</a>
+                            <a href="PropertyRight.html">Intellactual Property Rights</a>
+                            <a href="consumerLaw.html">Consumer Law</a>
+                          </div>
+                      </button>
+                      <a href="aboutUs.html"> About</a>
+                      <a>Blogs</a>
+                      <a>Founder's Message</a>
+                      
+          </div>
+              
+          </div>
 
             <div class="constitution">
                 <div class="backgroundBorder">
                     <div class="menu" >
-                    <p>Constitutional <br/> Law</p>
-                    <p> Litigation</p>
-                    <p>Arbitration</p>
-                    <p>Criminal Investigation</p>
-                    <p>Bankruptcy</p>
-                    <p>Intellactual <br/> Property Rights</p>
-                    <p>Consumer Law</p>
+                      <a href="constitutionalLaw.html">Constitutional <br/> Law</a>
+                      <a href="litigation.html">Litigation</a>
+                      <a href="arbitration.html">Arbitration</a>
+                      <a href="criminalInvestigation.html"> Criminal <br/>Investigation</a>
+                      <a href="bankruptcy.html">Bankruptcy</a>
+                      <a href="PropertyRight.html">Intellactual <br/> Property Rights</a>
+                      <a href="consumerLaw.html">Consumer Law</a>
                 </div>
                 </div>
             </div>
               
             <div class="constitutionLaw">
-                <div class="column">
+                <div class="column anileft">
                     <div class="heading">
                       Criminal Investigation and Trial
                     </div>
@@ -105,7 +138,7 @@
                     </div>
                 </div>
 
-                <div class="litigation" >
+                <div class="litigation aniright" >
                     <img src="" alt="">
                 </div>
             </div>

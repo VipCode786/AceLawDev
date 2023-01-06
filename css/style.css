@@ -46,13 +46,11 @@ body {
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  overflow-x: hidden;
   justify-content: center;
 }
 
 html, body {
   max-width: 100%;
-  overflow-x: hidden;
 }
 
 .center {

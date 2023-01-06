@@ -28,12 +28,13 @@ html, body {
 .aboutUs .imageBg .about {
   width: 308rem;
   height: 98rem;
+  filter: blur(10px);
   background: #472222;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.aboutUs .imageBg .about p {
+.aboutUs .imageBg p {
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 700;

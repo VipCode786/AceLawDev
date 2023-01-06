@@ -1,0 +1,19 @@
+.anileft {
+    -webkit-animation: moverleft 2s 1  ;
+    animation: moverleft 2s 1  ;
+}
+
+@keyframes moverleft {
+    0% { transform: translateX(-1000px); }
+    100% { transform: translateX(0px); }
+}
+
+.aniright{
+    -webkit-animation: mover 2s 1  ;
+    animation: mover 2s 1  ;
+}
+
+@keyframes mover {
+    0% { transform: translateX(1000px); }
+    100% { transform: translateX(0px); }
+}
