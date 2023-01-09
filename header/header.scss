@@ -63,7 +63,7 @@
       position: absolute;
       flex-direction: column;
       justify-content: flex-start;
-     
+      
        
       z-index: 1;
 
@@ -139,7 +139,13 @@
     font-size: 37rem;
     text-align:center;
     display: block;
+    line-height: 40rem;
     
+  }
+
+  a:hover{
+    background-color: #e4c70e;
+    color: black;
   }
 .dropdown{
   color: black;
@@ -150,6 +156,7 @@
   display: block;
   background: none;
   line-height: 28rem;
+  
 }
   
 button{
@@ -166,8 +173,9 @@ button{
   position: absolute;
   background: #7c0202;
   // margin-left: 15%;
-  
-  margin-left: -46rem;
+  margin-left: -136rem;
+
+  // margin-left: -46rem;
   a{
   color: #ffffff;
   }

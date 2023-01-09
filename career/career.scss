@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@100;300&display=swap');
+@import '../css/mixins';
+
+
+
+html{
+    font-size: 6.25%;
+}
+body{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    //  max-width: 1584rem;
+    // overflow-x: hidden;
+    justify-content: center;
+  }
+  html, body {
+    max-width: 100%;
+    // overflow-x: hidden;
+}
+
+.career{
+    // margin-top: 150rem;
+    background: url('./career.png');
+    background-position: left top;
+    background-repeat: no-repeat;
+    @include flex-column-center;
+    .head{
+        // width: 1536rem;
+        height: 800rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+       
+        // background-size: 704rem 704rem;
+       
+    .left{
+        max-width: 513.03rem;
+        margin-top: 150rem;
+        p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18rem;
+            line-height: 27rem;
+            text-transform: uppercase;
+
+            color: #001833;
+        }
+
+        .heading{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36rem;
+            line-height: 54rem;
+
+            color: #001833;
+        }
+    }
+
+    .right{
+        margin-top: 150rem;
+           @include flex-column-centerA; 
+            .row{
+                @include flex-row-space-around-wrap;
+                .column{
+                    @include flex-column-start;
+                    padding: 10rem;
+                    .heading{
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 18rem;
+                        line-height: 27rem;
+
+                        color: #001833;
+                    }
+
+                    p{
+                        width: 280.44rem;
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 14rem;
+                        line-height: 24rem;
+                        /* or 171% */
+
+
+                        color: #001833;
+                    }
+                }
+            }
+    }
+}
+.careerContact{
+    h1{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48rem;
+        line-height: 67rem;
+        /* or 140% */
+
+        text-align: center;
+
+        color: #482020;
+    }
+
+    p{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24rem;
+        line-height: 45rem;
+        /* or 188% */
+
+        text-align: center;
+
+        color: #000000;
+    }
+
+    a{
+        text-decoration: none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24rem;
+        line-height: 45rem;
+        /* or 188% */
+
+        text-align: center;
+
+         color: #000AFF;
+
+    }
+}
+}
+
+@media screen and (max-width:950px) {
+
+    .career{
+       
+        .head{
+            height:auto;
+            margin-left: 10%;
+            margin-right: 10%;
+            .left{
+                h1{
+                    font-size: 32rem;
+                }
+            }
+        }
+
+        .careerContact{
+            margin-left: 10%;
+            margin-right: 10%;
+            h1{
+                font-size: 32rem;
+            }
+
+            p a{
+                font-size: 20rem;
+            }
+        }
+    }
+    
+}

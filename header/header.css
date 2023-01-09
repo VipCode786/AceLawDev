@@ -109,6 +109,11 @@
   font-size: 37rem;
   text-align: center;
   display: block;
+  line-height: 40rem;
+}
+#myLinks a:hover {
+  background-color: #e4c70e;
+  color: black;
 }
 #myLinks .dropdown {
   color: black;
@@ -131,7 +136,7 @@
   flex-direction: column;
   position: absolute;
   background: #7c0202;
-  margin-left: -46rem;
+  margin-left: -136rem;
 }
 #myLinks .dropdown-content a {
   color: #ffffff;

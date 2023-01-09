@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@100;300&display=swap");
+html {
+  font-size: 6.25%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+html, body {
+  max-width: 100%;
+}
+
+.career {
+  background: url("./career.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.career .head {
+  height: 800rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.career .head .left {
+  max-width: 513.03rem;
+  margin-top: 150rem;
+}
+.career .head .left p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18rem;
+  line-height: 27rem;
+  text-transform: uppercase;
+  color: #001833;
+}
+.career .head .left .heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36rem;
+  line-height: 54rem;
+  color: #001833;
+}
+.career .head .right {
+  margin-top: 150rem;
+  display: flex;
+  flex-direction: column;
+}
+.career .head .right .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.career .head .right .row .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10rem;
+}
+.career .head .right .row .column .heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18rem;
+  line-height: 27rem;
+  color: #001833;
+}
+.career .head .right .row .column p {
+  width: 280.44rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14rem;
+  line-height: 24rem;
+  /* or 171% */
+  color: #001833;
+}
+.career .careerContact h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48rem;
+  line-height: 67rem;
+  /* or 140% */
+  text-align: center;
+  color: #482020;
+}
+.career .careerContact p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24rem;
+  line-height: 45rem;
+  /* or 188% */
+  text-align: center;
+  color: #000000;
+}
+.career .careerContact a {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24rem;
+  line-height: 45rem;
+  /* or 188% */
+  text-align: center;
+  color: #000AFF;
+}
+
+@media screen and (max-width: 950px) {
+  .career .head {
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .career .head .left h1 {
+    font-size: 32rem;
+  }
+  .career .careerContact {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .career .careerContact h1 {
+    font-size: 32rem;
+  }
+  .career .careerContact p a {
+    font-size: 20rem;
+  }
+}/*# sourceMappingURL=career.css.map */

@@ -55,6 +55,12 @@
       justify-content: space-around;
 }
 
+@mixin flex-row-space-around-wrap {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+}
 @mixin flex-row-space-between-wrap {
       display: flex;
       flex-direction: row;
@@ -68,6 +74,14 @@
        align-items: center;
       justify-content: center;
 }
+
+@mixin flex-column-centerA {
+      display: flex;
+      flex-direction: column;
+      //  align-items: center;
+      // justify-content: center;
+}
+
 
 @mixin flex-column-start {
       display: flex;
