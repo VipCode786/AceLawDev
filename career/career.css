@@ -45,7 +45,7 @@ html, body {
           justify-content: center;
 }
 .career .head {
-  height: 800rem;
+  height: 800px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -60,15 +60,15 @@ html, body {
       flex-wrap: wrap;
 }
 .career .head .left {
-  max-width: 513.03rem;
-  margin-top: 150rem;
+  max-width: 513.03px;
+  margin-top: 150px;
 }
 .career .head .left p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 18rem;
-  line-height: 27rem;
+  font-size: 18px;
+  line-height: 27px;
   text-transform: uppercase;
   color: #001833;
 }
@@ -76,12 +76,12 @@ html, body {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  font-size: 36rem;
-  line-height: 54rem;
+  font-size: 36px;
+  line-height: 54px;
   color: #001833;
 }
 .career .head .right {
-  margin-top: 150rem;
+  margin-top: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -114,23 +114,23 @@ html, body {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  padding: 10rem;
+  padding: 10px;
 }
 .career .head .right .row .column .heading {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  font-size: 18rem;
-  line-height: 27rem;
+  font-size: 18px;
+  line-height: 27px;
   color: #001833;
 }
 .career .head .right .row .column p {
-  width: 280.44rem;
+  width: 280.44px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 300;
-  font-size: 14rem;
-  line-height: 24rem;
+  font-size: 14px;
+  line-height: 24px;
   /* or 171% */
   color: #001833;
 }
@@ -138,8 +138,8 @@ html, body {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 48rem;
-  line-height: 67rem;
+  font-size: 48px;
+  line-height: 67px;
   /* or 140% */
   text-align: center;
   color: #482020;
@@ -148,8 +148,8 @@ html, body {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 24rem;
-  line-height: 45rem;
+  font-size: 24px;
+  line-height: 45px;
   /* or 188% */
   text-align: center;
   color: #000000;
@@ -159,8 +159,8 @@ html, body {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 24rem;
-  line-height: 45rem;
+  font-size: 24px;
+  line-height: 45px;
   /* or 188% */
   text-align: center;
   color: #000AFF;
@@ -173,16 +173,16 @@ html, body {
     margin-right: 10%;
   }
   .career .head .left h1 {
-    font-size: 32rem;
+    font-size: 32px;
   }
   .career .careerContact {
     margin-left: 10%;
     margin-right: 10%;
   }
   .career .careerContact h1 {
-    font-size: 32rem;
+    font-size: 32px;
   }
   .career .careerContact p a {
-    font-size: 20rem;
+    font-size: 20px;
   }
 }
