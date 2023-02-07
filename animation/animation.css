@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .anileft {
   -webkit-animation: moverleft 2s 1;
   animation: moverleft 2s 1;
@@ -5,19 +12,23 @@
 
 @-webkit-keyframes moverleft {
   0% {
-    transform: translateX(-1000px);
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
   }
   100% {
-    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
   }
 }
 
 @keyframes moverleft {
   0% {
-    transform: translateX(-1000px);
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
   }
   100% {
-    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
   }
 }
 .aniright {
@@ -27,18 +38,22 @@
 
 @-webkit-keyframes mover {
   0% {
-    transform: translateX(1000px);
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
   }
   100% {
-    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
   }
 }
 
 @keyframes mover {
   0% {
-    transform: translateX(1000px);
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
   }
   100% {
-    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
   }
-}/*# sourceMappingURL=animation.css.map */
+}

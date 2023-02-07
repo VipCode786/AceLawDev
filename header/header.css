@@ -1,10 +1,26 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .header {
   margin-top: 20rem;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 .header .logo {
   height: 109.2rem;
@@ -49,8 +65,13 @@
 .header .menubar .dropdown-content {
   display: none;
   position: absolute;
-  flex-direction: column;
-  justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   z-index: 1;
 }
 .header .menubar .dropdown-content a {
@@ -67,18 +88,31 @@
   letter-spacing: 1.5rem;
 }
 .header .menubar button:hover .dropdown-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .header .menubar .dropdown-content:hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .header .topnav {
   background-color: #333;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .header .topnav a {
   color: white;
@@ -97,10 +131,19 @@
 
 #myLinks {
   background-color: #e4c70e;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 #myLinks a {
   color: black;
@@ -133,7 +176,10 @@
 #myLinks .dropdown-content {
   display: none;
   position: absolute;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: absolute;
   background: #7c0202;
   margin-left: -136rem;
@@ -142,9 +188,13 @@
   color: #ffffff;
 }
 #myLinks button:hover .dropdown-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 #myLinks .dropdown-content:hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -152,10 +202,18 @@
   .header {
     margin-left: 50rem;
     margin-right: 10rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .header .logo {
     margin-left: 0rem;
@@ -170,4 +228,4 @@
   .header .topnav a.icon {
     display: block;
   }
-}/*# sourceMappingURL=header.css.map */
+}
