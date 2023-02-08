@@ -57,3 +57,14 @@
             transform: translateX(0px);
   }
 }
+
+@media screen and (max-width:850px) {
+  .anileft {
+    -webkit-animation:none;
+    animation:none
+  }
+  .aniright {
+    -webkit-animation:none;
+    animation:none
+  }
+}
