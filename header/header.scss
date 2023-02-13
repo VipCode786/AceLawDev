@@ -7,7 +7,7 @@
   // margin-left: 232rem;
   // margin-right: 232rem;
   align-items: center;
-  @include flex-row-space-around-nowrap;
+  @include flex-row-space-evenly-nowrap;
     .logo{
       // width: 182rem;
       height: 109.2rem;
@@ -18,14 +18,14 @@
       }
     }
   .menubar{
-    margin-left: 123rem;
+    // margin-left: 123rem;
 
     /* Neutral / Grey 7 */
 
     color: #2D2F30;
     a{
       color: #2D2F30;
-      margin-left: 32rem;
+      // margin-left: 32rem;
 
       text-align: center;
     font-family: 'Poppins';

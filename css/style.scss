@@ -78,7 +78,7 @@ body{
                font-size: 24rem;
                line-height: 158%;
                /* or 38rem */
-               text-align: center;
+               text-align: left;
                
                display: flex;
                align-items: center;
@@ -90,8 +90,8 @@ body{
           }
 
           .heroButton{
-               width: 285.46rem;
-               height: 80rem;
+               width: 206rem;
+               height: 40rem;
                
                
                background: #451F1F;
@@ -109,7 +109,7 @@ body{
                     align-items: center;
                     text-align: center;
                     // letter-spacing: 0.08em;
-                    padding-top: 20rem;
+                    padding-top: 9rem;
                     // /* Neutral / Grey 1 */
      
                     color: #F9F8F9;
@@ -120,9 +120,16 @@ body{
      .heroRight{
           // width: 100%;
           // height: 100vh;
-          img{
-               margin-top: 25%;
+          .manImage{
+               width: 408px;
+               height: 612px;
+               img{
+                    margin-top: 25%;
+                    width: 100%;
+                    height: 100%;
+               }
           }
+          
           // margin-left: 15%;
          .personCard{
           
@@ -210,7 +217,7 @@ color: #87898C;
           margin-right: 10%;
           
           .box{
-               flex:1 1 0;
+               // flex:1 1 0;
                margin: 20rem;
           width: 260px;
           height: 270px;
@@ -393,12 +400,13 @@ color: #87898C;
                // text-align: center;
                display: flex;
                justify-content: center;
-               padding-top: 17rem;
-               padding: 10rem;
+               padding-top: 15rem;
+               // padding: 10rem;
                margin-left: 20rem;
                img{
                     height:25rem;
-                   margin-top: 10rem;
+                    margin-top: 7px;
+                    margin-right: -15px
                }
           }
      }
@@ -447,6 +455,9 @@ color: #87898C;
      }
      .heroRight{
            width: 100vw;
+           margin-left: auto;
+           margin-right: auto;
+           display: contents;
           // height: 100vh;
           .personCard{
                margin-left: 0%;
@@ -466,7 +477,7 @@ color: #87898C;
           .boxes{
              
                .box{
-                    flex: 1 1 0;
+                    // flex: 1 1 0;
                     p{
                          width: auto;
                     }

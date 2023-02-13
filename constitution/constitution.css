@@ -88,6 +88,9 @@ html, body {
 }
 
 .constitutionLaw {
+  max-width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 100px;
   display: -webkit-box;
   display: -ms-flexbox;

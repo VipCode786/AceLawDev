@@ -55,6 +55,13 @@
       justify-content: space-around;
 }
 
+@mixin flex-row-space-evenly-nowrap {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-evenly;
+}
+
 @mixin flex-row-space-around-wrap {
       display: flex;
       flex-direction: row;

@@ -103,6 +103,7 @@ html, body {
   margin-bottom: 10px;
   background: #F5F5FF;
   border: 0px solid;
+  text-indent: 10px
 }
 .contactUs .contactBox .from form input ::-moz-placeholder {
   font-family: "Inter";
