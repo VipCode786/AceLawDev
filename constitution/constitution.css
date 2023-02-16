@@ -29,8 +29,9 @@ html, body {
   background: #451F1F;
   height: 8px;
   width: 100%;
-  margin-bottom: 100px;
-  margin-top: 50px;
+  /* margin-bottom: 100px; */
+  margin-bottom: 6.51vw;
+  margin-top: 3.25vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -42,8 +43,10 @@ html, body {
           align-items: center;
 }
 .constitution .menu {
-  margin-left: 50px;
-  margin-right: 50px;
+  /* margin-left: 50px;
+  margin-right: 50px; */
+  margin-left: 3.255vw;
+  margin-right: 3.255vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,8 +58,10 @@ html, body {
 }
 .constitution .menu a {
   text-decoration: none;
-  margin-left: 15px;
-  padding: 8px 25px 8px 25px;
+  /* margin-left: 15px; */
+  margin-left: 0.977vw;
+  /* padding: 8px 25px 8px 25px; */
+  padding: 0.521vw 1.628vw  0.521vw 1.628vw;
   color: #000000;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -70,8 +75,10 @@ html, body {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 23px;
+  /* font-size: 20px; */
+  font-size:1.302vw;
+  /* line-height: 23px; */
+  line-height: 1.497vw;
   /* or 115% */
   letter-spacing: 1.5px;
   background: #FFC727;
@@ -127,7 +134,7 @@ html, body {
   /* font-size: 50px; */
   line-height: 143.61%;
   /* or 92px */
-  max-width: 648px;
+  /* max-width: 648px; */
   letter-spacing: 0.1em;
   color: #000000;
 }
@@ -143,6 +150,28 @@ html, body {
   letter-spacing: 0.1em;
   color: #000000;
 }
+.constitutionLaw .column .bankruptyWidth{
+max-width: 51.497vw;
+}
+.constitutionLaw .column .consWidth {
+  max-width: 34.375vw;
+}
+
+.constitutionLaw .column .propRightWidth {
+  max-width:44.596vw;
+}
+
+.constitutionLaw .column .litigationWidth {
+  max-width: 49.674vw;
+}
+.constitutionLaw .column .consumerWidth {
+  max-width: 44.596vw;
+}
+
+.constitutionLaw .column .criminalWidth {
+  max-width: 44.596vw;
+}
+
 .constitutionLaw .column .contentArbitration {
   font-family: "Inter";
   font-style: normal;
@@ -154,6 +183,7 @@ html, body {
   max-width: 685px;
   letter-spacing: 0.1em;
   color: #000000;
+  max-width:44.596vw
 }
 .constitutionLaw .column .button {
   background: #FAAF18;
@@ -192,8 +222,10 @@ html, body {
 }
 .constitutionLaw .image {
   /* width: 828px; */
+  
   max-width: 53.906%;
-  height: 480px;
+  /* height: 480px; */
+  height:31.250%
 }
 .constitutionLaw .image img {
   width: 100%;
@@ -201,32 +233,126 @@ html, body {
 }
 .constitutionLaw .imageArbitration {
   /* width: 600px; */
-  width: 39.063vw;
-  height: 696px;
+  max-width: 45%; 
+  max-height: 45vw;
+  /* width: 39.063vw;
+  height: 696px; */
 }
 .constitutionLaw .imageArbitration img {
   width: 100%;
   height: 100%;
 }
+.constitutionLaw .litigation {
+  max-width: 45.117%;
+   max-height: 45.117%;
+}
 .constitutionLaw .litigation img {
   width: 100%;
   height: 100%;
 }
+
+.constitutionLaw .litigation100{
+  max-width:32.552%;
+   max-height:35%
+}
 .constitutionLaw .litigation100 img {
+  
   width: 100%;
   height: 100%;
   margin-top: -100%;
 }
 
-@media screen and (max-width: 1180px) {
+/* @media screen and (max-width: 1180px) {
   .constitution {
     display: none;
   }
+} */
+@media screen and (max-width: 550px) {
+  .constitutionLaw .column .heading {
+    font-size: 5vw;
+  }
+
+  .constitutionLaw .column .content {
+    font-size: 2vw;
+  }
+
+ .constitutionLaw .column .contentArbitration { 
+      font-size: 2vw;
+  }
+  .constitutionLaw .column .bankruptyWidth{
+    max-width:90vw;
+    }
+    .constitutionLaw .column .consWidth {
+      max-width: 85vw;
+    }
+    
+    .constitutionLaw .column .propRightWidth {
+      max-width:90vw;
+    }
+    
+    .constitutionLaw .column .litigationWidth {
+      max-width: 90vw;
+    }
+    .constitutionLaw .column .consumerWidth {
+      max-width: 90vw;
+    }
+
+    .constitutionLaw .column .contentArbitration  {
+      max-width: 90vw;
+    }
+
+    .constitutionLaw .column .criminalWidth {
+      max-width: 90vw;
+    }
+
+
+
+    .constitutionLaw .image {
+  /* width: 828px; */
+  
+  max-width: 85vw;
+  /* height: 480px; */
+  height:80vw
 }
-@media screen and (max-width: 850px) {
+.constitutionLaw .image img {
+  width: 100%;
+  height: 100%;
+}
+.constitutionLaw .imageArbitration {
+  /* width: 600px; */
+  max-width: 85vw; 
+  max-height: 45vw;
+  /* width: 39.063vw;
+  height: 696px; */
+}
+.constitutionLaw .imageArbitration img {
+  width: 100%;
+  height: 100%;
+}
+.constitutionLaw .litigation {
+  max-width: 80vw;
+   max-height: 60vw;
+}
+.constitutionLaw .litigation img {
+  width: 100%;
+  height: 100%;
+}
+
+.constitutionLaw .litigation100{
+  max-width:45vw;
+   max-height:45vw
+}
+.constitutionLaw .litigation100 img {
+  
+  width: 100%;
+  height: 100%;
+  margin-top: auto;
+}
+
   .constitution {
     display: none;
   }
+   /*
   .constitutionLaw {
     margin-left: 5%;
     margin-right: 5%;
@@ -263,16 +389,16 @@ html, body {
   .constitutionLaw .litigation img {
     width: 100%;
     height: 100%;
-  }
+  } */
 }
-@media screen and (max-width: 1063px) {
+/* @media screen and (max-width: 1063px) {
   .constitutionLaw .litigation100 img {
     width: 100%;
     height: 100%;
     margin-top: 0%;
   }
-}
-@media screen and (max-width: 1020px) {
+} */
+/* @media screen and (max-width: 1020px) {
   .constitutionLaw .litigation {
     width: 500px;
     height: 507px;
@@ -282,4 +408,4 @@ html, body {
     width: 100%;
     height: 100%;
   }
-}
+} */

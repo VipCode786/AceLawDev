@@ -42,7 +42,7 @@
                   <div class="menubar">
                         <a href="index.html">HOME</a>
                         <button class="dropdown">OUR PRACTICES
-                              <i class="fa fa-caret-down"></i>
+                              <i class="fa fa-caret-down" ></i>
                        
                          <div class="dropdown-content">
                               <a href="constitutionalLaw.html">Constitutional Law</a>
@@ -69,7 +69,7 @@
                   <div class="topnav">
                         
                         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                              <i class="fa fa-bars"></i>
+                              <i class="fa fa-bars" id="barMenu"></i>
                             </a>
                       
                       </div>
@@ -81,6 +81,21 @@
                               } else {
                                 x.style.display = "flex";
                               }
+
+                              var y = document.getElementById("barMenu")
+                              if ( y.classList.contains('fa-bars') ) {
+                                    console.log("fafa1") // Check for class
+                                    y.classList.remove('fa-bars'); 
+                                    y.classList.add('fa-close'); // Add class
+                                    
+                                    // y.classList.toggle('fa-close');
+                                          }
+                                          else{
+                                                console.log("fafa2")
+                                                y.classList.remove('fa-close'); 
+                                                y.classList.add('fa-bars');   
+                                                                                  
+                                          }
                             }
                             </script>
             </div>
@@ -248,10 +263,10 @@
 
                         </div>
                  
-                </div> 
+                </div>
 
                 <!-- Counter -->
-                <div class="counterBG">
+            <div class="counterBG">
                         <div class="counterHeading">
                               Some Milestone We Have Achieved
                         </div>
@@ -461,7 +476,7 @@
                     </script>
 
                     >helokxdodwj
-            </div>
+            </div> 
 
                  
             <div class="getInTouch">

@@ -74,6 +74,20 @@
                             } else {
                               x.style.display = "flex";
                             }
+                            var y = document.getElementById("barMenu")
+                              if ( y.classList.contains('fa-bars') ) {
+                                    console.log("fafa1") // Check for class
+                                    y.classList.remove('fa-bars'); 
+                                    y.classList.add('fa-close'); // Add class
+                                    
+                                    // y.classList.toggle('fa-close');
+                                          }
+                                          else{
+                                                console.log("fafa2")
+                                                y.classList.remove('fa-close'); 
+                                                y.classList.add('fa-bars');   
+                                                                                  
+                                          }
                           }
                           </script>
           </div>
@@ -122,7 +136,9 @@
                       Insolvency &  <br/>Bankruptcy
                     </div>
                     <br/>
-                    <div class="content" style="max-width: 791px;">
+                    <!-- style="max-width: 791px;" -->
+                    <!-- style="max-width: 51.497vw;" -->
+                    <div class="content bankruptyWidth" >
                       The Chambers has a well-rounded practice of both litigation and non-litigation work in the area of Insolvency and Restructuring. Ace Law Chambers advises corporate debtors, nancial and operational creditors, for a range of services which includes:
                       <br/>
                       <br/>
@@ -163,7 +179,8 @@
                 </div>
 
                 <div class="litigation100 aniright" >
-                    <img src="./constitution/images/Bankruptcy.png" width="487px" height="487px" alt="">
+                  <!-- width="487px" height="487px" -->
+                    <img src="./constitution/images/Bankruptcy.png"  alt="">
                 </div>
             </div>
 

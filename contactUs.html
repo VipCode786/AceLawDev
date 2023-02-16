@@ -75,6 +75,21 @@
                               } else {
                                 x.style.display = "flex";
                               }
+
+                              var y = document.getElementById("barMenu")
+                              if ( y.classList.contains('fa-bars') ) {
+                                    console.log("fafa1") // Check for class
+                                    y.classList.remove('fa-bars'); 
+                                    y.classList.add('fa-close'); // Add class
+                                    
+                                    // y.classList.toggle('fa-close');
+                                          }
+                                          else{
+                                                console.log("fafa2")
+                                                y.classList.remove('fa-close'); 
+                                                y.classList.add('fa-bars');   
+                                                                                  
+                                          }
                             }
                             </script>
             </div>

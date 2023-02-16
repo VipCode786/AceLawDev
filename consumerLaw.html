@@ -74,6 +74,21 @@
                             } else {
                               x.style.display = "flex";
                             }
+
+                            var y = document.getElementById("barMenu")
+                              if ( y.classList.contains('fa-bars') ) {
+                                    console.log("fafa1") // Check for class
+                                    y.classList.remove('fa-bars'); 
+                                    y.classList.add('fa-close'); // Add class
+                                    
+                                    // y.classList.toggle('fa-close');
+                                          }
+                                          else{
+                                                console.log("fafa2")
+                                                y.classList.remove('fa-close'); 
+                                                y.classList.add('fa-bars');   
+                                                                                  
+                                          }
                           }
                           </script>
           </div>
@@ -122,8 +137,9 @@
                       Consumer Law
                     </div>
                     <br/>
-                    <div class="content">
-                      Our lawyers are seasoned and well versed with consumer litigation and practice. Our team has solid experience across all consumer forums and helps clients with end-to-end solutions for various consumer matters. We specialize in preparation and review of consumer contracts, advisory on product liability, warranties, false advertisement, appearing before the forums and pre and post litigation documentational support. Our practice also extends to handling cases pertaining to ecommerce businesses and help both consumers and the e-commerce business. We also advise and represent developers, agents and homebuyers under RERA and assist our clients with registration as well as compliances under RERA.
+                    <!-- style="max-width:44.596vw;" -->
+                    <div class="content consumerWidth" >
+                      Our lawyers are seasoned and well versed with consumer litigation and practice. Our team has solid experience across all consumer forums and helps clients with end-to-end solutions for various consumer matters. We specialize in preparation and review of consumer contracts, advisory on product liability, warranties, false advertisement, appearing before the forums and pre and post litigation documentational support. Our practice also extends to handling cases pertaining to e-commerce businesses and help both consumers and the e-commerce business. We also advise and represent developers, agents and homebuyers under RERA and assist our clients with registration as well as compliances under RERA.
                     </div>
                     <br/>
                     <br/>
@@ -131,10 +147,12 @@
                         <p>Enquire Now</p>
                     </div>
                 </div>
-
-                <div class="litigation aniright" >
+                <div class="litigation aniright"  >
+                  <img src="./constitution/images/consumerLaw.png"  alt="" >
+              </div>
+                <!-- <div class="litigation aniright" >
                     <img src="./constitution/images/consumerLaw.png" alt="">
-                </div>
+                </div> -->
             </div>
 
             

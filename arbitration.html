@@ -74,6 +74,21 @@
                             } else {
                               x.style.display = "flex";
                             }
+
+                            var y = document.getElementById("barMenu")
+                              if ( y.classList.contains('fa-bars') ) {
+                                    console.log("fafa1") // Check for class
+                                    y.classList.remove('fa-bars'); 
+                                    y.classList.add('fa-close'); // Add class
+                                    
+                                    // y.classList.toggle('fa-close');
+                                          }
+                                          else{
+                                                console.log("fafa2")
+                                                y.classList.remove('fa-close'); 
+                                                y.classList.add('fa-bars');   
+                                                                                  
+                                          }
                           }
                           </script>
           </div>
@@ -122,7 +137,9 @@
                       Arbitration
                     </div>
                     <br/>
-                    <div class="contentArbitration " style="max-width:685px">
+                    <!-- style="max-width:685px" -->
+                    <!-- style="max-width:44.596vw" -->
+                    <div class="contentArbitration " >
                       We are specialised in the whole gamut of corporate and commercial dispute resolution services- right from the pre-arbitration stage till the enforcement of the arbitral award.
                       <br/>
                       <br/>
@@ -137,8 +154,8 @@
                         <p>Enquire Now</p>
                     </div>
                 </div>
-
-                <div class="imageArbitration aniright"  >
+                <!-- style="max-width: 45%; max-height: 45vw;" -->
+                <div class="imageArbitration aniright arbitationimageVH"  >
                     <img src="./constitution/images/arbitation.png" alt="">
                 </div>
             </div>

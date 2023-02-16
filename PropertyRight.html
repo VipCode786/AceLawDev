@@ -77,6 +77,21 @@
                             } else {
                               x.style.display = "flex";
                             }
+
+                            var y = document.getElementById("barMenu")
+                              if ( y.classList.contains('fa-bars') ) {
+                                    console.log("fafa1") // Check for class
+                                    y.classList.remove('fa-bars'); 
+                                    y.classList.add('fa-close'); // Add class
+                                    
+                                    // y.classList.toggle('fa-close');
+                                          }
+                                          else{
+                                                console.log("fafa2")
+                                                y.classList.remove('fa-close'); 
+                                                y.classList.add('fa-bars');   
+                                                                                  
+                                          }
                           }
                           </script>
           </div>
@@ -125,7 +140,9 @@
                       Intellactual Property Rights
                     </div>
                     <br/>
-                    <div class="content" style="max-width: 685px;">
+                    <!-- style="max-width: 685px;" -->
+                    <!-- style="max-width:44.596vw;" -->
+                    <div class="content propRightWidth" >
                       The team is renowned and recognised for its work in providing strategic advice on IP protection, development, commercialisation and litigation matters. From registration to strategy, the team does it all and ensures maximisation of value. Our team provides advice on the full suite of Intellectual property issues: from Trademarks, Copyrights, Patents, Geographical Indicators and Industrial Designs. We also advise on issues of unfair competition, domain name licensing, IP infringement over the internet and IP related to advertising and media. We assist our clients in doing extensive IP audits to review the scope, status and implications of their IP assets, registered and unregistered, and to address issues like employee know-how, condentiality, trade secrets and more.
                     </div>
                     <br/>
@@ -134,8 +151,9 @@
                         <p>Enquire Now</p>
                     </div>
                 </div>
-                <div class="litigation aniright" >
-                    <img src="./constitution/images/propertRight.png" alt="">
+                <!-- style="max-width: 45.117%; max-height: 45.117%;" -->
+                <div class="litigation aniright"  >
+                    <img src="./constitution/images/propertRight.png"  alt="" >
                 </div>
                 <script src="animation.js"></script>
             </div>
