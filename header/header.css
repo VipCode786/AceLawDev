@@ -163,7 +163,7 @@
 }
 #myLinks a {
   color: black;
-  padding: 14px 16px;
+  /* padding: 14px 16px; */
   text-decoration: none;
   /* font-size: 37px; */
   font-size: 3.636vw;
@@ -262,7 +262,7 @@
 
 @media screen and (max-width: 600px) {
   .topnav a, .dropdown .dropbtn {
-    display: none;
+    /* display: none; */
   }
   .topnav a.icon {
     float: right;
@@ -290,3 +290,5 @@
     text-align: left;
   }
 }
+
+

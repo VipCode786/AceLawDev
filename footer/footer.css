@@ -184,3 +184,10 @@
     width: 300px;
   }
 }
+
+@media screen and (max-width:550px) {
+  .footer .row .column a {
+  
+    font-size: 4vw;
+}
+}

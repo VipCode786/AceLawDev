@@ -475,6 +475,7 @@ html, body {
   .hero {
     display: flex;
     flex-direction: column;
+    margin-top: 10%;
   }
 
   .hero .heroLeft .heroHeading {
@@ -490,6 +491,12 @@ font-size: 10vw;
   .hero .heroRight .personCard{
     
   }
+
+  .getInTouch .contactPerson {
+    width: 439.75px;
+    height: 183.34px;
+    margin-left: 100px;
+}
 }
 
 /* @media screen and (max-width: 850px) {
