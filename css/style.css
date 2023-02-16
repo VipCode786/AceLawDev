@@ -471,11 +471,18 @@ html, body {
   height: 100%;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 550px) {
   .hero {
     display: flex;
     flex-direction: column;
   }
+
+  .hero .heroLeft .heroHeading {
+font-size: 10vw;
+  }
+  .hero .heroLeft .heroP {
+    font-size: 3vw;
+      }
   .hero .heroRight .manImage{
     width: 60vw;
     height: 70vh;
