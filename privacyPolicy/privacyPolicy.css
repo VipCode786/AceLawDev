@@ -1,24 +1,22 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
 
 html {
   font-size: 6.25%;
+  
 }
 
+@media screen and (max-width:1050px) {
+  html {
+    font-size: 4.25%;
+  }
+}
 body {
   padding: 0;
   margin: 0;
   text-decoration: none;
   list-style: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  box-sizing: border-box;
+  justify-content: center;
+  overflow-x: hidden;
 }
 
 html, body {
@@ -26,7 +24,7 @@ html, body {
 }
 
 .privacyPolicy {
-  margin-top: 50px;
+  margin-top: 50rem;
 }
 .privacyPolicy .heading {
   margin-left: 12%;
@@ -65,4 +63,4 @@ html, body {
   font-style: normal;
   font-size: 15px;
   line-height: 23px;
-}
+}/*# sourceMappingURL=privacyPolicy.css.map */

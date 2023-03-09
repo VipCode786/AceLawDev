@@ -1,94 +1,45 @@
-                         <div class="boxes">
-                              <div class="box">
-                                    <div class="circleBG">
-                                          <img src="./images/measur.png" alt="">
-                                    </div>
-                                    <div class="boxheading">
-                                          Constitutional Law
-                                    </div>
-                                    <p>
-                                          Protecting the rights of the clients as mandated by our legal framework.
-                                    </p>
-                                    <div class="arrow">
-                                          <img src="./images/arrow.png" alt="">
-                                    </div>
-                              </div>
-                              <div class="box">
-                                    <div class="circleBG">
-                                          <img src="./images/bott.png" alt="">
-                                    </div>
-                                    <div class="boxheading">
-                                          Litigation
-                                    </div>
-                                    <p>
-                                          We encompasses advocacy and advisory work across a broad range of civil and commercial areas.                                    </p>
-                                    <div class="arrow">
-                                          <img src="./images/Arrow.png" alt="">
-                                    </div>
-                              </div>
-                              <div class="box">
-                                    <div class="circleBG">
-                                          <img src="./images/arb.png" alt="">
-                                    </div>
-                                    <div class="boxheading">
-                                          Arbitration                                    </div>
-                                    <p>
-                                          We are specialised in the whole gamut of corporate and commercial dispute 
-                                          resolution services.                                    </p>
-                                    <div class="arrow">
-                                          <img src="./images/Arrow.png" alt="">
-                                    </div>
-                              </div>
-                              <div class="box">
-                                    <div class="circleBG">
-                                          <img src="./images/horror.png" alt="">
-                                    </div>
-                                    <div class="boxheading">
-                                          Criminal Investigation & Trials                                    </div>
-                                    <p>
-                                          We deal with matters related to defamation, economic offences, white collar crimes, bail, appeal and revision cases, cybercrime etc.                                    </p>
-                                    <div class="arrow">
-                                          <img src="./images/Arrow.png" alt="">
-                                    </div>
-                              </div>
-                              <div class="box"> 
-                                    <div class="circleBG">
-                                    <img src="./images/rs.png" alt="">
-                              </div>
-                              <div class="boxheading">
-                                    Bankruptcy
-                              </div>
-                              <p>
-                                    We have well-rounded practice of both litigation and non-litigation work in the area of Insolvency and Restructuring.                              </p>
-                              <div class="arrow">
-                                    <img src="./images/Arrow.png" alt="">
-                              </div></div>
-                              <div class="box">
-                                    <div class="circleBG">
-                                          <img src="./images/key.png" alt="">
-                                    </div>
-                                    <div class="boxheading">
-                                          Intellactual Property Rights                                    </div>
-                                    <p>
-                                          We provides advice on the full suite of 
-                                          Intellectual property issues, from Trademarks, Copyrights, Patents, Industrial Designs etc.                                    </p>
-                                    <div class="arrow">
-                                          <img src="./images/Arrow.png" alt="">
-                                    </div>
-                              </div>
-                              <div class="box">
-                                    <div class="circleBG">
-                                          <img src="./images/measur.png" alt="">
-                                    </div>
-                                    <div class="boxheading">
-                                          Consumer Law                                    </div>
-                                    <p>
-                                          Our team has 
-                                          solid experience across all consumer forums and helps clients with end-to-end solutions for various 
-                                          consumer matters.                                    </p>
-                                    <div class="arrow" >
-                                          <img style="margin-top: 5rem;" src="./images/Arrow.png" alt="">
-                                    </div>
-                              </div>
+// Close the dropdown if the user clicks outside of it
+// window.onclick = function(event) {
+// if (!event.target.matches('.dropbtn')) {
+// var dropdowns = document.getElementsByClassName("dropdown-content");
+// var i;
+// for (i = 0; i < dropdowns.length; i++) {
+//       var openDropdown = dropdowns[i];
+//       if (openDropdown.classList.contains('show')) {
+//       openDropdown.classList.remove('show');
+//       }
+// }
+// }
+// }
+    
+//     document.addEventListener('mouseup', function(e) {
+// var container = document.getElementById('myLinks');
+// if (!container.contains(e.target)) {
+//       container.style.display = 'none';
+// }
+// });
 
-                        </div>
+// document.addEventListener('mouseup', function(e) {
+// var container = document.getElementById('myLinks');
+// var topw = document.getElementById('top1');
+// var y = document.getElementById("barMenu")
+//       if (container.style.display === "flex")
+//       {
+//                   if (!container.contains(e.target)) {
+//                       container.removeAttribute("style")
+//                       y.classList.remove('fa-close'); 
+//                       y.classList.add('fa-bars'); 
+//                   }     
+//       }
+// });
+//                             $(document).click(function() {
+//     var container = $("#top1");
+//     var dropdown = $("#myLinks")
+
+//     if( $("#myLinks").css('display') == 'block')  
+//                               {
+//     if (!dropdown.is(event.target) || !container.is(event.target)){
+//       dropdown.css("display","none")
+//     }
+// }
+// });

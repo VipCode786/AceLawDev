@@ -74,7 +74,12 @@
       flex-wrap: wrap ;
       justify-content: space-between;
 }
-
+@mixin flex-column-space-between-nowrap {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap ;
+      justify-content: space-between;
+}
 @mixin flex-column-center {
       display: flex;
       flex-direction: column;

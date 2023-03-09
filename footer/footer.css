@@ -1,48 +1,30 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 .rowCopyright {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
   background: #451F1F;
   mix-blend-mode: normal;
   height: 50px;
   width: 100%;
 }
 .rowCopyright p {
-  margin-left: 200px;
+  margin-left: 200rem;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 14rem;
   line-height: 24px;
   /* identical to box height, or 171% */
-  -webkit-font-feature-settings: "salt" on, "liga" off;
-          font-feature-settings: "salt" on, "liga" off;
+  font-feature-settings: "salt" on, "liga" off;
   /* Text / Gray 300 */
   color: #D9DBE1;
 }
 .rowCopyright .footer-menu {
   float: right;
-  margin-right: 200px;
-  letter-spacing: 1px;
+  margin-right: 200rem;
+  letter-spacing: 1rem;
 }
 .rowCopyright .footer-menu a {
   color: #cfd2d6;
@@ -50,125 +32,95 @@
   text-decoration: none;
 }
 .rowCopyright .footer-menu a i {
-  height: 30px;
-  width: 300px;
+  height: 30rem;
+  width: 300rem;
 }
 .rowCopyright .footer-menu .fa-brands {
-  height: 300px;
-  width: 300px;
+  height: 300rem;
+  width: 300rem;
 }
 
 .footer {
-  background: -webkit-gradient(linear, left top, left bottom, from(#451F1F), to(#924545));
-  background: -o-linear-gradient(top, #451F1F 0%, #924545 100%);
   background: linear-gradient(180deg, #451F1F 0%, #924545 100%);
 }
 .footer footer {
-  margin-left: 160px;
-  margin-right: 160px;
+  margin-left: 160rem;
+  margin-right: 160rem;
 }
 .footer footer .lastlogo {
-  margin-top: -20px;
+  margin-top: -20rem;
 }
 .footer .row {
-  max-width: 100vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .footer .row .column {
   margin: 20px;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  align-items: flex-start;
+  flex-wrap: nowrap;
 }
 .footer .row .column a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 16rem;
   line-height: 19px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  align-items: flex-end;
   letter-spacing: 0.025em;
   text-decoration: none;
   color: #FFFFFF;
-  padding: 10px;
+  padding: 10rem;
 }
 .footer .row .column h3 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 35px;
-  line-height: 24px;
-  letter-spacing: 0.025px;
-  margin-bottom: 25px;
+  font-size: 35rem;
+  line-height: 24rem;
+  letter-spacing: 0.025rem;
+  margin-bottom: 25rem;
   color: #FFFFFF;
 }
 
 @media screen and (max-width: 850px) {
   .footer {
-    background: -webkit-gradient(linear, left top, left bottom, from(#451F1F), to(#924545));
-    background: -o-linear-gradient(top, #451F1F 0%, #924545 100%);
     background: linear-gradient(180deg, #451F1F 0%, #924545 100%);
   }
   .footer footer {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    overflow-x: hidden;
   }
   .rowCopyright {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     background: #451F1F;
     mix-blend-mode: normal;
     height: auto;
     width: 100%;
   }
   .rowCopyright p {
-    margin-left: 2px;
+    margin-left: 2rem;
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 14rem;
     line-height: 24px;
     /* identical to box height, or 171% */
-    -webkit-font-feature-settings: "salt" on, "liga" off;
-            font-feature-settings: "salt" on, "liga" off;
+    font-feature-settings: "salt" on, "liga" off;
     /* Text / Gray 300 */
     color: #D9DBE1;
   }
   .rowCopyright .footer-menu {
     float: right;
-    margin-right: 2px;
-    letter-spacing: 1px;
+    margin-right: 2rem;
+    letter-spacing: 1rem;
   }
   .rowCopyright .footer-menu a {
     color: #cfd2d6;
@@ -176,18 +128,21 @@
     text-decoration: none;
   }
   .rowCopyright .footer-menu a i {
-    height: 30px;
-    width: 300px;
+    height: 30rem;
+    width: 300rem;
   }
   .rowCopyright .footer-menu .fa-brands {
-    height: 300px;
-    width: 300px;
+    height: 300rem;
+    width: 300rem;
   }
-}
+}/*# sourceMappingURL=footer.css.map */
 
-@media screen and (max-width:550px) {
-  .footer .row .column a {
-  
-    font-size: 4vw;
+
+@media screen and (max-width:490px) {
+  .footer .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 }

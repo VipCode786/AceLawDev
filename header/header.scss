@@ -4,14 +4,14 @@
 
 .header{
   margin-top: 20rem;
-  // margin-left: 232rem;
-  // margin-right: 232rem;
+  margin-left: 10vw;
+  margin-right: 10vw;
   align-items: center;
-  @include flex-row-space-evenly-nowrap;
+  @include flex-column-space-between-nowrap;
     .logo{
       // width: 182rem;
       height: 109.2rem;
-      margin-left: 250rem;
+      // margin-left: 250rem;
       img{
         width: 100%;
       height: 100%;

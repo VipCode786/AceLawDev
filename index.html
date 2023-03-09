@@ -13,6 +13,7 @@
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
             rel="stylesheet"
           />
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
           <link rel="preconnect" href="https://fonts.googleapis.com">
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -66,40 +67,16 @@
                   </div>
 
                     <!-- Top Navigation Menu -->
-                  <div class="topnav">
+                  <div class="topnav"  id="top1" onclick="myFunction()">
                         
-                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                              <i class="fa fa-bars" id="barMenu"></i>
+                        <a href="javascript:void(0);" class="icon" >
+                              <i class="fa fa-bars" id="barMenu" ></i>
                             </a>
                       
                       </div>
-                      <script>
-                            function myFunction() {
-                              var x = document.getElementById("myLinks");
-                              if (x.style.display === "flex") {
-                                x.style.display = "none";
-                              } else {
-                                x.style.display = "flex";
-                              }
-
-                              var y = document.getElementById("barMenu")
-                              if ( y.classList.contains('fa-bars') ) {
-                                    console.log("fafa1") // Check for class
-                                    y.classList.remove('fa-bars'); 
-                                    y.classList.add('fa-close'); // Add class
-                                    
-                                    // y.classList.toggle('fa-close');
-                                          }
-                                          else{
-                                                console.log("fafa2")
-                                                y.classList.remove('fa-close'); 
-                                                y.classList.add('fa-bars');   
-                                                                                  
-                                          }
-                            }
-                            </script>
+                      
             </div>
-            <div id="myLinks" style="display: none;">
+            <div id="myLinks"  class="dropdown_menu-6 " >
                   <a href="index.html">Home</a>
                         <button class="dropdown">Practices
                               <i class="fa fa-caret-down"></i>
@@ -119,12 +96,40 @@
                         <a  href="#">FOUNDER'S MESSAGE</a>
                         <a href="aboutUs.html">ABOUT US</a>
                         <a href="contactUs.html">CONTACT US</a>
-                        
             </div>
-                
+                <script>
+                            function myFunction() {
+                              var x = document.getElementById("myLinks");
+                              if (x.style.display === "flex") {
+                               console.log("display flex  == none")
+                               x.removeAttribute("style")
+                              } else {
+                                    console.log("else flex")
+                                    x.style.display = "flex";
+                                console.log("else flex2")
+                              }
+
+                              var y = document.getElementById("barMenu")
+                              if ( y.classList.contains('fa-bars') ) {
+                                   
+                                    y.classList.remove('fa-bars'); 
+                                    y.classList.add('fa-close'); // Add class
+                      
+                                          }
+                                          else{
+                                               
+                                                y.classList.remove('fa-close'); 
+                                                y.classList.add('fa-bars');   
+                                                                                  
+                                          }
+                            }
+                          
+       
+                            </script>
             </div>
       </div>  
       <br/>
+      <div class="main">
                 <div class="hero">
                   
                   <div class="heroLeft">
@@ -157,9 +162,11 @@
                                                                   </div>
                   </div>
                 </div>
+            </div>
 
-
+            
                  <div class="afterHero">
+                  <div class="main">
                         <div class="heading">
                               How can we help You ?
                         </div>
@@ -168,6 +175,7 @@
                               Ace Law Chambers is specialized in various fields and can cater to you with the best advice and legal solutions. We provide holistic legal expertise in the following fields :-
 
                         </div>
+                        <div class="boxContainer">
                          <div class="boxes">
                               <div class="box">
                                     <div class="circleBG">
@@ -179,9 +187,16 @@
                                     <p>
                                           Protecting the rights of the clients as mandated by our legal framework.
                                     </p>
-                                    <div class="arrow">
-                                          <img src="./images/arrow.png" alt="" style="margin-top: 50px;">
+                                    <div>
+
                                     </div>
+                                    <a href="constitutionalLaw.html" style="margin-top: auto; margin-right: 10px;">
+                                          <i class="fa fa-long-arrow-right" style="font-size:30px;float: right;color: black;"></i>   
+                                    </a>
+                                    <!-- <div class="arrow"> -->
+                                          <!-- style="margin-top: 50px;" -->
+                                          <!-- <img src="./images/arrow.png"  style="width:44px;height:10px; margin-top: auto; margin-left: auto; margin-bottom: 10px;" alt="" > -->
+                                    <!-- </div> -->
                               </div>
                               <div class="box">
                                     <div class="circleBG">
@@ -192,9 +207,12 @@
                                     </div>
                                     <p>
                                           We encompasses advocacy and advisory work across a broad range of civil and commercial areas.                                    </p>
-                                    <div class="arrow">
-                                          <img src="./images/Arrow.png" alt="" style="margin-top: 35px;">
-                                    </div>
+                                    <!-- <div class="arrow"> -->
+                                          <!-- style="margin-top: 35px;" -->
+                                          <a href="litigation.html" style="margin-top: auto; margin-right: 10px;">
+                                                <i class="fa fa-long-arrow-right" style="font-size:30px;float: right;color: black;"></i>   
+                                          </a>
+                                          <!-- </div> -->
                               </div>
                               <div class="box">
                                     <div class="circleBG">
@@ -205,9 +223,13 @@
                                     <p>
                                           We are specialised in the whole gamut of corporate and commercial dispute 
                                           resolution services.                                    </p>
-                                    <div class="arrow">
-                                          <img src="./images/Arrow.png" alt="" style="margin-top: 55px;">
-                                    </div>
+                                          <a href="arbitration.html" style="margin-top: auto; margin-right: 10px;">
+                                                <i class="fa fa-long-arrow-right" style="font-size:30px;float: right;color: black;"></i>   
+                                          </a>
+                                    <!-- <div class="arrow"> -->
+                                          <!-- style="margin-top: 55px;" -->
+                                          <!-- <img src="./images/Arrow.png" style="width:44px;height:10px; margin-top: auto; margin-left: auto; margin-bottom: 10px;" alt="" > -->
+                                    <!-- </div> -->
                               </div>
                               <div class="box">
                                     <div class="circleBG">
@@ -217,9 +239,15 @@
                                           Criminal <div style="white-space: nowrap;"> Investigation & Trials     </div>                                </div>
                                     <p>
                                           We deal with matters related to defamation, economic offences, white collar crimes, bail, appeal and revision cases, cybercrime etc.                                    </p>
-                                    <div class="arrow"  style="margin-top: -40px;">
-                                          <img src="./images/Arrow.png" alt="" style="margin-top: 28px;">
-                                    </div>
+                                    
+                                          <a href="criminalInvestigation.html" style="margin-top: auto; margin-right: 10px;">
+                                                <i class="fa fa-long-arrow-right" style="font-size:30px;float: right;color: black;"></i>   
+                                          </a>
+                                          <!-- <div class="arrow"  > -->
+                                          <!-- style="margin-top: -40px;" -->
+                                          <!-- style="margin-top: 28px;" -->
+                                          <!-- <img src="./images/Arrow.png" style="width:44px;height:10px; margin-top: auto; margin-left: auto; margin-bottom: 10px;" alt="" > -->
+                                    <!-- </div> -->
                               </div>
                               <div class="box"> 
                                     <div class="circleBG">
@@ -229,9 +257,14 @@
                                     Bankruptcy                              </div>
                               <p>
                                     We have well-rounded practice of both litigation and non-litigation work in the area of Insolvency and Restructuring.                              </p>
-                              <div class="arrow" style="margin-top: -20px;">
-                                    <img src="./images/Arrow.png" alt="" style="margin-top: 47px;">
-                              </div></div>
+                             
+                                    <a href="bankruptcy.html" style="margin-top: auto; margin-right: 10px;">
+                                          <i class="fa fa-long-arrow-right" style="font-size:30px;float: right;color: black;"></i>   
+                                    </a>
+                                    <!-- <div class="arrow" style="margin-top: -20px;"> -->
+                                    <!-- <img src="./images/Arrow.png" alt="" style="width:44px;height:10px; margin-top: auto; margin-left: auto; margin-bottom: 10px;"> -->
+                              <!-- </div> -->
+                        </div>
                               <div class="box">
                                     <div class="circleBG">
                                           <img src="./images/key.png" alt="">
@@ -240,10 +273,16 @@
                                           Intellactual Property Rights                                    </div>
                                     <p>
                                           We provides advice on the full suite of 
-                                          Intellectual property issues, from Trademarks, Copyrights, Patents, Industrial Designs etc.                                    </p>
-                                                <div class="arrow" style="margin-top: -40px;">
-                                          <img src="./images/Arrow.png" alt="" style="margin-top: 5px;">
-                                    </div>
+                                          Intellectual property issues, from Trademarks, Copyrights, Patents, Industrial Designs etc. 
+                                                                       </p>
+                                                                       <!-- style="margin-top: -40px;" -->
+                                                                       <!-- style="margin-top: 5px;" -->
+                              <a href="PropertyRight.html" style="margin-top: auto; margin-right: 10px;">
+                              <i class="fa fa-long-arrow-right" style="font-size:30px;float: right;color: black;"></i>   
+                        </a>
+                                                                       <!-- <div class="arrow" > -->
+                                          <!-- <img src="./images/Arrow.png" alt="" style="width:44px;height:10px; margin-top: auto; margin-left: auto; margin-bottom: 10px;"> -->
+                                    <!-- </div> -->
                               </div>
                               <div class="box">
                                     <div class="circleBG">
@@ -255,17 +294,53 @@
                                           Our team has 
                                           solid experience across all consumer forums and helps clients with end-to-end solutions for various 
                                           consumer matters.                                    </p>
-                                    <div class="arrow" style="margin-top: -40px;">
-                                          <img src="./images/Arrow.png" alt="" style="margin-top: 47px;">
+                                          <!-- style="margin-top: -40px;" -->
+                                          <!-- style="margin-top: 29px;" -->
+                                    <a href="consumerLaw.html" style="margin-top: auto; margin-right: 10px;">
+                                          <i class="fa fa-long-arrow-right" style="font-size:30px;float: right;color: black;"></i>   
+                                    </a>
+                                          <!-- <div class="arrow" > -->
+                                          <!-- <img src="./images/Arrow.png" alt="" style="width:44px;height:10px; margin-top: auto; margin-left: auto; margin-bottom: 10px;"> -->
+                                    <!-- </div> -->
+                              </div>
+
+                              <div class="box mob"  style="background: none; " >
+                                    <div class="circleBG" style="display: none;">
+                                          <img src="./images/measur.png" alt="">
                                     </div>
+                                    <div class="boxheading" style="display: none; ">
+                                          Consumer Law                                    </div>
+                                    <p style="display: none;">
+                                          Our team has 
+                                          solid experience across all consumer forums and helps clients with end-to-end solutions for various 
+                                          consumer matters.                                    </p>
+                                          <!-- style="margin-top: -28px;" -->
+                                    <!-- <div class="arrow"  style="display: none;"> -->
+                                          <img src="./images/Arrow.png" style="width:44px;height:10px; margin-top: auto; margin-left: auto; margin-bottom: 10px; display: none;" alt="" style="margin-top: 47px;">
+                                    <!-- </div> -->
                               </div>
 
                         </div>
+                  </div>
                  
                 </div>
+            </div>
 
+            <div class="founderBg">
+                  <div class="founderMsg">
+                        <img src="/images/FounderMsg.png" alt="">
+                        <div class="rightFmsg">
+                               
+                              
+                              <p>Founder's Message</p>
+                              <p>Fermin Apps has collaborated with Landify team for several projects such as Photo Sharing Apps and Custom Social Networking Apps. The experience has been pleasant, professional and exceeding our expectations. </p>
+                        
+                  </div>
+            </div>
+      </div>
                 <!-- Counter -->
             <div class="counterBG">
+                  <div class="main">
                         <div class="counterHeading">
                               Some Milestone We Have Achieved
                         </div>
@@ -301,7 +376,7 @@
                               </div>
                         </div>
                 </div>
-
+            </div>
 
             <div class="testimonialDiv">
                   <div class="heading">Clients Testimonial</div>
@@ -474,10 +549,10 @@
                     
                     </script>
 
-                    >helokxdodwj
+                    
             </div> 
 
-                 
+            <div class="main">   
             <div class="getInTouch">
                         <div class="column"> 
                               <div class="heading">
@@ -497,13 +572,13 @@
                                     <img src="./images/contactUs.png" alt="">
                         </div>
             </div>
-              
+      </div> 
                   <div class="footer">
                         <footer>
                               <img class="lastlogo" src="./footer/images/footerlogo.png"/>
-                                  <div class="row primary">
+                                  <div class="row primary" style="margin-top: 50px;">
                                    
-                                    <div class="column about " style="margin-top: 50px;">
+                                    <div class="column about " >
                                       <h3>Find Us</h3>
                                       <div style="display: flex; flex-direction: row; flex-wrap: nowrap;margin-bottom: 10px;">
                                           <img class="icon" height="25px"style="margin-top:25px" src="./footer/images/footerAddress.png" />

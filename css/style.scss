@@ -46,14 +46,17 @@ body{
 
  .hero{
      @include flex-row-center-wrap;
+     flex-wrap: nowrap;
      background: url('../images/background.png') no-repeat;
      background-position:  right;
      padding-top: 2%;
      margin-top: -2%;
-    
+    margin-left: 10vw;
+    margin-right: 10vw;
      // background-size: 55% 100%;
      .heroLeft{
-          margin-left: -10%;
+          // margin-left: -10%;
+          margin-right: 100px;
            @include flex-column-start;
 
           .heroHeading{

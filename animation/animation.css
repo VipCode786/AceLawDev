@@ -1,70 +1,24 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 .anileft {
-  -webkit-animation: moverleft 2s 1;
   animation: moverleft 2s 1;
-}
-
-@-webkit-keyframes moverleft {
-  0% {
-    -webkit-transform: translateX(-1000px);
-            transform: translateX(-1000px);
-  }
-  100% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
 }
 
 @keyframes moverleft {
   0% {
-    -webkit-transform: translateX(-1000px);
-            transform: translateX(-1000px);
+    transform: translateX(-1000px);
   }
   100% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    transform: translateX(0px);
   }
 }
 .aniright {
-  -webkit-animation: mover 2s 1;
   animation: mover 2s 1;
-}
-
-@-webkit-keyframes mover {
-  0% {
-    -webkit-transform: translateX(1000px);
-            transform: translateX(1000px);
-  }
-  100% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
 }
 
 @keyframes mover {
   0% {
-    -webkit-transform: translateX(1000px);
-            transform: translateX(1000px);
+    transform: translateX(1000px);
   }
   100% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    transform: translateX(0px);
   }
-}
-
-@media screen and (max-width:850px) {
-  .anileft {
-    -webkit-animation:none;
-    animation:none
-  }
-  .aniright {
-    -webkit-animation:none;
-    animation:none
-  }
-}
+}/*# sourceMappingURL=animation.css.map */
