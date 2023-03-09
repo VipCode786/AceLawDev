@@ -113,9 +113,11 @@ a{
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 23px;
+  line-height: 30px;
   margin-right: 23px;
   letter-spacing: 1.5px;
+  text-transform: uppercase;
+
 }
 
 .header .menubar a:hover {
@@ -127,6 +129,7 @@ a{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  text-transform: uppercase;
 }
 .header .menubar .dropdown-content:hover {
   display: -webkit-box;
@@ -192,6 +195,7 @@ a.iconClose {
   text-align: center;
   display: block;
   line-height: 40rem;
+  text-transform: uppercase;
 }
 #myLinks a:hover {
   background-color: #e4c70e;
