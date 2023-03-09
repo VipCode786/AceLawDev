@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 
 html {
   font-size: 6.25%;
@@ -14,8 +21,11 @@ body {
   margin: 0;
   text-decoration: none;
   list-style: none;
-  box-sizing: border-box;
-  justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   overflow-x: hidden;
 }
 
@@ -63,4 +73,4 @@ html, body {
   font-style: normal;
   font-size: 15px;
   line-height: 23px;
-}/*# sourceMappingURL=privacyPolicy.css.map */
+}

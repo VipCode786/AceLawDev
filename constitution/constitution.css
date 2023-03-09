@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 
 html {
   font-size: 6.25%;
@@ -15,8 +22,11 @@ body {
   margin: 0;
   text-decoration: none;
   list-style: none;
-  box-sizing: border-box;
-  justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   overflow-x: hidden;
 }
 
@@ -30,15 +40,26 @@ html, body {
   width: 100%;
   margin-bottom: 100rem;
   margin-top: 50rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .constitution .menu {
   margin-left: 50rem;
   margin-right: 50rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   position: absolute;
 }
 .constitution .menu a {
@@ -46,9 +67,15 @@ html, body {
   margin-left: 15rem;
   padding: 8rem 25rem 8rem 25rem;
   color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -57,7 +84,8 @@ html, body {
   /* or 115% */
   letter-spacing: 1.5rem;
   background: #FFC727;
-  box-shadow: 0rem 4rem 4rem rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0rem 4rem 4rem rgba(0, 0, 0, 0.25);
+          box-shadow: 0rem 4rem 4rem rgba(0, 0, 0, 0.25);
 }
 .constitution .menu a:hover {
   background-color: #451f1f;
@@ -76,18 +104,34 @@ html, body {
 }
 .constitutionLaw {
   margin-bottom: 100rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: nowrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   margin-left: 6vw;
   margin-right: 6vw;
 }
 .constitutionLaw .column {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 .constitutionLaw .column .heading {
   font-family: "Playfair Display";
@@ -111,7 +155,8 @@ html, body {
   letter-spacing: 0.1em;
   color: #000000;
   text-align: justify;
-    hyphens: auto;
+    -ms-hyphens: auto;
+        hyphens: auto;
     -webkit-hyphens: auto;
     word-spacing: -0.05em;
 }
@@ -130,9 +175,15 @@ html, body {
   background: #FAAF18;
   width: 255rem;
   height: 67rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .constitutionLaw .column .button p {
   font-family: "Inter";
@@ -144,8 +195,12 @@ html, body {
   letter-spacing: 0.1em;
   color: #000000;
   border-radius: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
 }
 .constitutionLaw .image {
@@ -186,12 +241,19 @@ html, body {
   .constitutionLaw {
     margin-left: 5%;
     margin-right: 5%;
-    flex-wrap: wrap;
-    justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .constitutionLaw .column {
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .constitutionLaw .column .heading {
     font-size: 32rem;
@@ -233,4 +295,4 @@ html, body {
     width: 100%;
     height: 100%;
   }
-}/*# sourceMappingURL=constitution.css.map */
+}

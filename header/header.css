@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 
 a{
   text-decoration: none;
@@ -6,11 +13,21 @@ a{
   margin-top: 20rem;
   margin-left: 10vw;
   margin-right: 10vw;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .header .logo {
   height: 109.2rem;
@@ -65,7 +82,8 @@ a{
   z-index: 1;
   margin-left: -80px;
   background: #FFFFFF;
-  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.25);
   border-radius: 7px;
 }
 /* .header .menubar .dropdown-content {
@@ -106,18 +124,31 @@ a{
   text-decoration-thickness: 3px;
 }
 .header .menubar button:hover .dropdown-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .header .menubar .dropdown-content:hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .header .topnav {
   background-color: #333;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .header .topnav a {
   color: white;
@@ -142,9 +173,16 @@ a.iconClose {
 #myLinks {
   background-color: #e4c70e;
   display: none;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 #myLinks a {
   color: black;
@@ -179,7 +217,10 @@ a.iconClose {
 #myLinks .dropdown-content {
   display: none;
   position: absolute;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: absolute;
   background: #7c0202;
   /* margin-left: -36rem; */
@@ -189,39 +230,75 @@ a.iconClose {
   white-space: nowrap;
 }
 #myLinks button:hover .dropdown-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  transform: translate(-30%, -0%);
+  -webkit-transform: translate(-30%, -0%);
+      -ms-transform: translate(-30%, -0%);
+          transform: translate(-30%, -0%);
 }
 #myLinks .dropdown-content:hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 #show{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .dropdown_menu-6 {
-  animation: growDown 300ms ease-in-out forwards;
-  transform-origin: top center;
+  -webkit-animation: growDown 300ms ease-in-out forwards;
+          animation: growDown 300ms ease-in-out forwards;
+  -webkit-transform-origin: top center;
+      -ms-transform-origin: top center;
+          transform-origin: top center;
+}
+@-webkit-keyframes growDown {
+  0% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+  80% {
+    -webkit-transform: scaleY(1.1);
+            transform: scaleY(1.1);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
 }
 @keyframes growDown {
   0% {
-    transform: scaleY(0);
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
   }
   80% {
-    transform: scaleY(1.1);
+    -webkit-transform: scaleY(1.1);
+            transform: scaleY(1.1);
   }
   100% {
-    transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
   }
 }
 @media screen and (max-width: 1050px) {
   .header {
     /* margin-left: 50rem;
     margin-right: 10rem; */
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .header .logo {
     margin-left: 0rem;
@@ -236,7 +313,9 @@ a.iconClose {
   .header .topnav a.icon {
     display: block;
   }
-}/*# sourceMappingURL=header.css.map */
+}
 .expand{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }

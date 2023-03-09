@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
@@ -10,7 +17,8 @@
   width: 20rem;
   overflow: hidden;
   margin: 2rem;
-  box-shadow: 5px 5px 5px 5px #000;
+  -webkit-box-shadow: 5px 5px 5px 5px #000;
+          box-shadow: 5px 5px 5px 5px #000;
   border-radius: 0.5rem;
 }
 .card img {
@@ -51,8 +59,11 @@ body {
   margin: 0;
   text-decoration: none;
   list-style: none;
-  box-sizing: border-box;
-  justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   overflow-x: hidden;
 }
 
@@ -62,11 +73,21 @@ html, body {
 
 
 .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
 .main{
@@ -75,11 +96,21 @@ html, body {
   margin-right: auto;
 }
 .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: nowrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   background: url("../images/background.png") no-repeat;
   background-position: right;
   background-size: contain;
@@ -90,9 +121,18 @@ html, body {
 }
 .hero .heroLeft {
   
+  display: -webkit-box;
+  
+  display: -ms-flexbox;
+  
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 .hero .heroLeft .heroHeading {
   font-family: "Playfair Display";
@@ -115,8 +155,12 @@ html, body {
   line-height: 158%;
   /* or 38rem */
   text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   letter-spacing: 0.5rem;
   /* Neutral / Grey 6 */
   margin-bottom: 20rem;
@@ -133,7 +177,9 @@ html, body {
   font-size: 16rem;
   line-height: 140.5%;
   /* or 22px */
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   padding-top: 9rem;
   color: #F9F8F9;
@@ -157,11 +203,16 @@ html, body {
   top: 834.51px;
   background: #FFFFFF;
   border-radius: 10px;
-  filter: drop-shadow(0px 39px 100px rgba(25, 62, 108, 0.12));
+  -webkit-filter: drop-shadow(0px 39px 100px rgba(25, 62, 108, 0.12));
+          filter: drop-shadow(0px 39px 100px rgba(25, 62, 108, 0.12));
   margin-left: 8%;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   
-box-shadow: 0px -1px 16px 10px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px -1px 16px 10px rgba(0,0,0,0.75);
+  
+        box-shadow: 0px -1px 16px 10px rgba(0,0,0,0.75);
 }
 .hero .heroRight .personCard .name {
   padding-top: 8%;
@@ -221,17 +272,32 @@ box-shadow: 0px -1px 16px 10px rgba(0,0,0,0.75);
 .afterHero .boxes {
   overflow-x: hidden;
   overflow-y: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-left: 9vw;
   margin-right: 9vw;
 }
 .afterHero .boxes .box {
   
+  display: -webkit-box;
+  
+  display: -ms-flexbox;
+  
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 
   margin: 20rem;
   width: 260px;
@@ -284,7 +350,8 @@ box-shadow: 0px -1px 16px 10px rgba(0,0,0,0.75);
 
 .afterHero .boxes .box .arrow {
   width: 44px;
-  align-self: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
   margin: 0 auto;
   /* align-self: flex-end; */
   /* margin-top: -10rem;
@@ -311,7 +378,8 @@ box-shadow: 0px -1px 16px 10px rgba(0,0,0,0.75);
   /* identical to box height, or 133% */
   text-align: center;
   letter-spacing: 0.005em;
-  font-feature-settings: "salt" on, "liga" off;
+  -webkit-font-feature-settings: "salt" on, "liga" off;
+          font-feature-settings: "salt" on, "liga" off;
   /* Default / White */
   color: #FFFFFF;
 }
@@ -324,19 +392,30 @@ box-shadow: 0px -1px 16px 10px rgba(0,0,0,0.75);
   /* identical to box height, or 178% */
   text-align: center;
   letter-spacing: 0.5px;
-  font-feature-settings: "salt" on, "liga" off;
+  -webkit-font-feature-settings: "salt" on, "liga" off;
+          font-feature-settings: "salt" on, "liga" off;
   /* Default / White */
   color: #FFFFFF;
 }
 .counterBG .counter {
   margin-left: 10%;
   margin-right: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   align-items: center;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .counterBG .counter img {
   margin-left: 50rem;
@@ -350,18 +429,29 @@ box-shadow: 0px -1px 16px 10px rgba(0,0,0,0.75);
   line-height: 64px;
   /* identical to box height, or 133% */
   text-align: center;
-  font-feature-settings: "salt" on, "liga" off;
+  -webkit-font-feature-settings: "salt" on, "liga" off;
+          font-feature-settings: "salt" on, "liga" off;
   /* Default / White */
   color: #FFFFFF;
 }
 
 .getInTouch {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   align-items: center;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding: 50rem;
 }
 .getInTouch .column .heading {
@@ -373,7 +463,8 @@ box-shadow: 0px -1px 16px 10px rgba(0,0,0,0.75);
   /* or 133% */
   padding: 10rem;
   letter-spacing: 0.5rem;
-  font-feature-settings: "salt" on, "liga" off;
+  -webkit-font-feature-settings: "salt" on, "liga" off;
+          font-feature-settings: "salt" on, "liga" off;
 }
 .getInTouch .column .content {
   font-family: "Poppins";
@@ -400,8 +491,12 @@ box-shadow: 0px -1px 16px 10px rgba(0,0,0,0.75);
   color: #F9F8F9;
   width: 219rem;
   height: 64rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-top: 15rem;
   margin-left: 20rem;
 }
@@ -424,18 +519,34 @@ box-shadow: 0px -1px 16px 10px rgba(0,0,0,0.75);
   /* width: 704px;
   height: 704px; */
   max-width: 2000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-flex-wrap: nowrap;
-justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+-ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
 margin-left: auto;
 margin-right: auto;
 }
 .founderMsg{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-flex-wrap: nowrap;
-justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+-ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
 background: url(/images/founderEclipse.png);
 background-repeat: no-repeat;
 background-position: top right;
@@ -447,10 +558,21 @@ background-size: 25% 80%
 }
 .founderMsg .rightFmsg{
 
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-right: 10vw;
   margin-left: 10vw;
 /* border-radius: 0 0 704px 704px;
@@ -471,7 +593,8 @@ line-height: 64rem;
 /* margin-right: 37%; */
 /* text-align: center; */
 letter-spacing: 0.5px;
-font-feature-settings: 'salt' on, 'liga' off;
+-webkit-font-feature-settings: 'salt' on, 'liga' off;
+        font-feature-settings: 'salt' on, 'liga' off;
 white-space: nowrap;
 /* Neutral / Grey 7 */
 
@@ -500,25 +623,50 @@ color: #4F4F4F;
   }
   .afterHero .boxes {
   
-    justify-content: center;
+    -webkit-box-pack: center;
+  
+        -ms-flex-pack: center;
+  
+            justify-content: center;
   }
   .founderMsg{
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
   .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     background-position: top;
     background-size: contain;
   }
   .hero .heroLeft {
     /* margin-left: 10%; */
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .hero .heroLeft .heroHeading {
     font-size: 60rem;
@@ -562,13 +710,24 @@ color: #4F4F4F;
     padding-bottom: 25rem;
   }
   .counterBG img {
-    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
   }
   .counterBG .counter {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .counterBG .counter .count {
     font-size: 30rem;
@@ -576,21 +735,41 @@ color: #4F4F4F;
     line-height: 20rem;
   }
   .getInTouch {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     align-items: center;
-    justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     align-items: center;
-    flex-wrap: wrap;
-    align-items: center;
-    flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
     padding: 50rem;
   }
   .getInTouch .column {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .getInTouch .column .heading {
     font-family: "Playfair Display";
@@ -601,7 +780,8 @@ color: #4F4F4F;
     /* or 133% */
     padding: 5rem;
     letter-spacing: 0.5rem;
-    font-feature-settings: "salt" on, "liga" off;
+    -webkit-font-feature-settings: "salt" on, "liga" off;
+            font-feature-settings: "salt" on, "liga" off;
   }
   .getInTouch .column .content {
     font-family: "Poppins";
@@ -628,9 +808,15 @@ color: #4F4F4F;
     color: #F9F8F9;
     width: 219rem;
     height: 44rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding-top: 27rem;
     padding: 10rem;
     margin-left: 20rem;
@@ -650,14 +836,22 @@ color: #4F4F4F;
     width: 100%;
     height: 100%;
   }
-}/*# sourceMappingURL=style.css.map */
+}
 
 @media screen and (max-width:1050px) {
   .hero .heroLeft .heroButton {
     
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .hero .heroLeft .heroButton p{
     margin-top: -5px;

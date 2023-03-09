@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 html {
@@ -15,8 +22,11 @@ body {
   margin: 0;
   text-decoration: none;
   list-style: none;
-  box-sizing: border-box;
-  justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   overflow-x: hidden;
 }
 
@@ -41,12 +51,21 @@ html, body {
   background-repeat: no-repeat;
 }
 .contactUs .contactBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background: #FFFFFF;
-  box-shadow: 0px 20px 30px rgba(102, 106, 245, 0.13);
+  -webkit-box-shadow: 0px 20px 30px rgba(102, 106, 245, 0.13);
+          box-shadow: 0px 20px 30px rgba(102, 106, 245, 0.13);
   border-radius: 14px;
   max-width: 935rem;
   margin-left: auto;
@@ -56,9 +75,16 @@ html, body {
   padding: 25rem;
 }
 .contactUs .contactBox .from {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 .contactUs .contactBox .from h1 {
   font-family: "Oswald";
@@ -89,6 +115,36 @@ html, body {
   text-indent: 10px;
 }
 .contactUs .contactBox .from form input ::-moz-placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12rem;
+  line-height: 15rem;
+  /* identical to box height */
+  letter-spacing: 0.08em;
+  color: #9F9F9F;
+}
+.contactUs .contactBox .from form input ::-webkit-input-placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12rem;
+  line-height: 15rem;
+  /* identical to box height */
+  letter-spacing: 0.08em;
+  color: #9F9F9F;
+}
+.contactUs .contactBox .from form input :-ms-input-placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12rem;
+  line-height: 15rem;
+  /* identical to box height */
+  letter-spacing: 0.08em;
+  color: #9F9F9F;
+}
+.contactUs .contactBox .from form input ::-ms-input-placeholder {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -136,6 +192,36 @@ html, body {
   letter-spacing: 0.08em;
   color: #9F9F9F;
 }
+.contactUs .contactBox .from form textarea ::-webkit-input-placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12rem;
+  line-height: 18rem;
+  /* identical to box height */
+  letter-spacing: 0.08em;
+  color: #9F9F9F;
+}
+.contactUs .contactBox .from form textarea :-ms-input-placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12rem;
+  line-height: 18rem;
+  /* identical to box height */
+  letter-spacing: 0.08em;
+  color: #9F9F9F;
+}
+.contactUs .contactBox .from form textarea ::-ms-input-placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12rem;
+  line-height: 18rem;
+  /* identical to box height */
+  letter-spacing: 0.08em;
+  color: #9F9F9F;
+}
 .contactUs .contactBox .from form textarea ::placeholder {
   font-family: "Poppins";
   font-style: normal;
@@ -150,7 +236,8 @@ html, body {
   outline: none;
 }
 .contactUs .contactBox .contactInfoMap {
-  align-self: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 .contactUs .contactBox .contactInfoMap .map {
   width: 400rem;
@@ -162,10 +249,18 @@ html, body {
   margin-bottom: -10rem;
 }
 .contactUs .contactBox .contactInfoMap .contactInfo .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .contactUs .contactBox .contactInfoMap .contactInfo .row img {
   margin-right: 15rem;
@@ -184,10 +279,19 @@ html, body {
 
 @media screen and (max-width: 900px) {
   .contactUs .contactBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .contactUs .contactBox .from input {
     max-width: 70vw;
@@ -197,9 +301,11 @@ html, body {
   }
   .contactUs .contactBox .contactInfoMap {
     margin-top: 35rem;
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
   .contactUs .contactBox .contactInfoMap .map {
     max-width: 70vw;
   }
-}/*# sourceMappingURL=contactUs.css.map */
+}
