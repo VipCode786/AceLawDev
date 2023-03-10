@@ -8,13 +8,17 @@
 
 html {
   font-size: 6.25%;
- 
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
 }
 
-@media screen and (max-width:1050px) {
+@media screen and (max-width:1050rem) {
   html {
     font-size: 4.25%;
- 
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
   }   
 }
 body {
@@ -35,19 +39,19 @@ html, body {
 }
 
 .privacyPolicy {
-  margin-top: 50px;
+  margin-top: 50rem;
 }
 .privacyPolicy .heading {
   margin-left: 12%;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 36px;
-  line-height: 23px;
+  font-size: 36rem;
+  line-height: 23rem;
   color: #FAAF18;
 }
 .privacyPolicy .border {
-  height: 7px;
+  height: 7rem;
   background-color: #FAAF18;
 }
 .privacyPolicy .content {
@@ -58,20 +62,20 @@ html, body {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 23px;
+  font-size: 20rem;
+  line-height: 23rem;
   color: #FAAF18;
 }
 .privacyPolicy .content p {
   font-family: "Poppins";
   font-style: normal;
-  font-size: 15px;
-  line-height: 23px;
+  font-size: 15rem;
+  line-height: 23rem;
   /* or 115% */
 }
 .privacyPolicy .content ul li {
   font-family: "Poppins";
   font-style: normal;
-  font-size: 15px;
-  line-height: 23px;
+  font-size: 15rem;
+  line-height: 23rem;
 }

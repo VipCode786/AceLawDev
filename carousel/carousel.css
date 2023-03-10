@@ -8,31 +8,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 .testimonialDiv {
   background: #FFF4DF;
-  padding: 50px;
-  /* img{height: 50px;width: 130px;object-fit: cover;border-radius: 50%!important;
-      border: 5px solid darkorange;} */
+  padding: 50rem;
+  /* img{height: 50rem;width: 130rem;object-fit: cover;border-radius: 50%!important;
+      border: 5rem solid darkorange;} */
   /* .owl-prev i, .owl-next i {transform : scale(2,5); color: #ccc;} */
 }
 .testimonialDiv .heading {
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
-  line-height: 64px;
+  font-size: 48rem;
+  line-height: 64rem;
   /* or 133% */
   text-align: center;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.5rem;
   -webkit-font-feature-settings: "salt" on, "liga" off;
           font-feature-settings: "salt" on, "liga" off;
   /* Neutral / Grey 7 */
   color: #2D2F30;
 }
 .testimonialDiv .owl-carousel .nav-button {
-  height: 50px;
-  width: 25px;
+  height: 50rem;
+  width: 25rem;
   cursor: pointer;
   position: absolute;
-  top: 110px !important;
+  top: 110rem !important;
 }
 .testimonialDiv .owl-carousel .owl-prev.disabled,
 .testimonialDiv .owl-carousel .owl-next.disabled {
@@ -40,45 +40,45 @@
   opacity: 0.25;
 }
 .testimonialDiv .owl-carousel .owl-prev {
-  left: -35px;
-  height: 0px;
-  margin-top: -30px;
+  left: -35rem;
+  height: 0rem;
+  margin-top: -30rem;
 }
 .testimonialDiv .owl-carousel .owl-next {
-  right: -35px;
-  height: 0px;
-  margin-top: -30px;
+  right: -35rem;
+  height: 0rem;
+  margin-top: -30rem;
 }
 .testimonialDiv .owl-theme .owl-nav [class*=owl-] {
   color: #ffffff;
-  font-size: 39px;
+  font-size: 39rem;
   background: #000000;
-  border-radius: 3px;
+  border-radius: 3rem;
 }
 .testimonialDiv .owl-carousel .prev-carousel:hover {
-  background-position: 0px -53px;
+  background-position: 0rem -53rem;
 }
 .testimonialDiv .owl-carousel .next-carousel:hover {
-  background-position: -24px -53px;
+  background-position: -24rem -53rem;
 }
 .testimonialDiv .imgHolder {
-  height: 60px;
-  width: 60px;
+  height: 60rem;
+  width: 60rem;
   -o-object-fit: cover;
      object-fit: cover;
   /* position: absolute; */
-  /* left: -30px;
-  top: -30px; */
+  /* left: -30rem;
+  top: -30rem; */
 }
 .testimonialDiv .testimonialDiv .owl-carousel .owl-item img {
   border-radius: 50%;
-  height: 160px;
+  height: 160rem;
   display: block;
-  width: 160px;
+  width: 160rem;
 }
 .testimonialDiv .owl-carousel .owl-item {
-  /* height: 506px; */
-  width: 506px;
+  /* height: 506rem; */
+  width: 506rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -105,56 +105,56 @@
 }
 .testimonialDiv .item-testimonials {
   background-color: linen;
-  /* padding:50px 30px 15px; */
-  /* width: 500px; */
-  margin: 20px;
-  height: 220px;
+  /* padding:50rem 30rem 15rem; */
+  /* width: 500rem; */
+  margin: 20rem;
+  height: 220rem;
   position: relative;
-  border-radius: 10px;
-  /* box-shadow: 10px 10px 18px rgb(54, 54, 54); */
-  /* margin-left: 27px; */
+  border-radius: 10rem;
+  /* box-shadow: 10rem 10rem 18rem rgb(54, 54, 54); */
+  /* margin-left: 27rem; */
 }
 .testimonialDiv .owl-prev, .testimonialDiv .owl-next {
-  width: 15px;
-  height: 100px;
+  width: 15rem;
+  height: 100rem;
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   display: block !important;
-  border: 0px solid black;
+  border: 0rem solid black;
 }
 .testimonialDiv .owl-prev {
-  left: -20px;
+  left: -20rem;
 }
 .testimonialDiv .owl-next {
-  right: -20px;
+  right: -20rem;
 }
 .testimonialDiv .owl-nav i {
-  font-size: 152px;
+  font-size: 152rem;
 }
 .testimonialDiv .item-testimonials:after {
   content: " ";
   position: absolute;
-  right: 230px;
-  bottom: -15px;
-  border-top: 15px solid linen;
-  border-right: 15px solid transparent;
-  border-left: 15px solid transparent;
+  right: 230rem;
+  bottom: -15rem;
+  border-top: 15rem solid linen;
+  border-right: 15rem solid transparent;
+  border-left: 15rem solid transparent;
   border-bottom: none;
 }
 .testimonialDiv .item-testimonials .quote {
   position: absolute;
   bottom: 0;
-  right: 60px;
-  font-size: 40px;
+  right: 60rem;
+  font-size: 40rem;
   color: darkorange;
 }
 .testimonialDiv .item-testimonials ul.stars {
-  margin-top: 20px;
+  margin-top: 20rem;
   padding: 0;
-  padding-left: 80px;
+  padding-left: 80rem;
 }
 .testimonialDiv .item-testimonials ul.stars li {
   display: inline-block;
@@ -166,29 +166,29 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 800;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 18rem;
+  line-height: 28rem;
   /* identical to box height, or 156% */
   text-align: center;
   -webkit-font-feature-settings: "salt" on, "liga" off;
           font-feature-settings: "salt" on, "liga" off;
   /* Neutral / Grey 8 */
-  padding: 10px;
+  padding: 10rem;
   color: #151617;
 }
 .testimonialDiv .item-testimonials p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 14rem;
+  line-height: 24rem;
   /* or 171% */
   text-align: center;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.5rem;
   -webkit-font-feature-settings: "salt" on, "liga" off;
           font-feature-settings: "salt" on, "liga" off;
   /* Neutral / Grey 6 */
-  padding: 20px;
+  padding: 20rem;
   color: #4F4F4F;
   text-align: justify;
     /* hyphens: auto; */
@@ -199,8 +199,8 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 18rem;
+  line-height: 28rem;
   /* identical to box height, or 156% */
   -webkit-font-feature-settings: "salt" on, "liga" off;
           font-feature-settings: "salt" on, "liga" off;
@@ -211,8 +211,8 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 14rem;
+  line-height: 24rem;
   /* identical to box height, or 171% */
   -webkit-font-feature-settings: "salt" on, "liga" off;
           font-feature-settings: "salt" on, "liga" off;
@@ -229,62 +229,62 @@
       flex-grow: 0;
 }
 .testimonialDiv .owl-dot {
-  width: 15px;
-  height: 15px;
+  width: 15rem;
+  height: 15rem;
   background-color: transparent !important;
-  border: 1px solid black !important;
-  margin-left: 7px;
+  border: 1rem solid black !important;
+  margin-left: 7rem;
   border-radius: 50%;
 }
 .testimonialDiv .owl-dot.active {
-  width: 15px;
-  height: 15px;
+  width: 15rem;
+  height: 15rem;
   background-color: #FAAF18 !important;
-  border: 1px solid black !important;
+  border: 1rem solid black !important;
   border-radius: 50%;
 }
 .testimonialDiv .owl-dots {
   text-align: center;
 }
 .testimonialDiv .owl-carousel .nav-button {
-  height: 70px;
-  width: 25px;
+  height: 70rem;
+  width: 25rem;
   cursor: pointer;
   position: absolute;
-  top: 10px !important;
+  top: 10rem !important;
 }
 .testimonialDiv .owl-carousel .owl-prev {
-  left: 0px;
+  left: 0rem;
 }
 .testimonialDiv .owl-carousel .owl-next {
-  right: 0px;
+  right: 0rem;
 }
 .testimonialDiv .owl-carousel .owl-item img {
   border-radius: 50%;
-  height: 50px;
+  height: 50rem;
   display: block;
-  width: 50px;
+  width: 50rem;
 }
 .testimonialDiv .owl-stage-outer .items {
   margin: 0%;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 850rem) {
   .testimonialDiv {
     background: #FFF4DF;
-    padding: 15px;
-    /* img{height: 50px;width: 130px;object-fit: cover;border-radius: 50%!important;
-        border: 5px solid darkorange;} */
+    padding: 15rem;
+    /* img{height: 50rem;width: 130rem;object-fit: cover;border-radius: 50%!important;
+        border: 5rem solid darkorange;} */
     /* .owl-prev i, .owl-next i {transform : scale(2,5); color: #ccc;} */
   }
   .testimonialDiv .heading {
-    font-size: 50px;
+    font-size: 50rem;
   }
   .testimonialDiv .item-testimonials {
     height: auto;
   }
   .testimonialDiv .item-testimonials p {
-    padding: 20px;
+    padding: 20rem;
   }
 
  

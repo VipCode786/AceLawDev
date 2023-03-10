@@ -17,8 +17,8 @@
   width: 20rem;
   overflow: hidden;
   margin: 2rem;
-  -webkit-box-shadow: 5px 5px 5px 5px #000;
-          box-shadow: 5px 5px 5px 5px #000;
+  -webkit-box-shadow: 5rem 5rem 5rem 5rem #000;
+          box-shadow: 5rem 5rem 5rem 5rem #000;
   border-radius: 0.5rem;
 }
 .card img {
@@ -46,12 +46,17 @@
 
 html {
   font-size: 6.25%;
-  
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
 }
 
-@media screen and (max-width:1050px) {
+@media screen and (max-width:1050rem) {
   html {
     font-size: 3.25%;
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
   }
 }
 body {
@@ -91,7 +96,7 @@ html, body {
 }
 
 .main{
-  max-width: 2000px;
+  max-width: 2000rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -176,7 +181,7 @@ html, body {
   font-weight: 700;
   font-size: 16rem;
   line-height: 140.5%;
-  /* or 22px */
+  /* or 22rem */
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -197,22 +202,22 @@ html, body {
   height: 100%;
 }
 .hero .heroRight .personCard {
-  max-width: 382px;
-  height: 114px;
-  left: 851px;
-  top: 834.51px;
+  max-width: 382rem;
+  height: 114rem;
+  left: 851rem;
+  top: 834.51rem;
   background: #FFFFFF;
-  border-radius: 10px;
-  -webkit-filter: drop-shadow(0px 39px 100px rgba(25, 62, 108, 0.12));
-          filter: drop-shadow(0px 39px 100px rgba(25, 62, 108, 0.12));
+  border-radius: 10rem;
+  -webkit-filter: drop-shadow(0rem 39rem 100rem rgba(25, 62, 108, 0.12));
+          filter: drop-shadow(0rem 39rem 100rem rgba(25, 62, 108, 0.12));
   margin-left: 8%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   
--webkit-box-shadow: 0px -1px 16px 10px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0rem -1rem 16rem 10rem rgba(0,0,0,0.75);
   
-        box-shadow: 0px -1px 16px 10px rgba(0,0,0,0.75);
+        box-shadow: 0rem -1rem 16rem 10rem rgba(0,0,0,0.75);
 }
 .hero .heroRight .personCard .name {
   padding-top: 8%;
@@ -230,8 +235,8 @@ html, body {
   font-family: "Plus Jakarta Sans";
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 36px;
+  font-size: 16rem;
+  line-height: 36rem;
   /* identical to box height, or 225% */
   text-align: center;
   color: #87898C;
@@ -242,15 +247,15 @@ html, body {
   width: 100%;
 }
 .afterHero .heading {
-  /* max-width: 419.31px; */
+  /* max-width: 419.31rem; */
   margin-left: 10vw;
   margin-right: 10vw;
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 700;
   font-size: 48rem;
-  line-height: 64px;
-  letter-spacing: 0.323077px;
+  line-height: 64rem;
+  letter-spacing: 0.323077rem;
   margin-bottom: 30rem;
   /* Neutral / Grey 7 */
   color: #2D2F30;
@@ -263,9 +268,9 @@ html, body {
   font-weight: 400;
   font-size: 20rem;
   line-height: 143.02%;
-  /* or 29px */
+  /* or 29rem */
   max-width: 500rem;
-  letter-spacing: 0.323077px;
+  letter-spacing: 0.323077rem;
   margin-bottom: 30rem;
   color: #767676;
 }
@@ -300,21 +305,21 @@ html, body {
           flex-direction: column;
 
   margin: 20rem;
-  width: 260px;
-  height: 290px;
-  left: 222px;
-  top: 1402px;
+  width: 260rem;
+  height: 290rem;
+  left: 222rem;
+  top: 1402rem;
   background: #FCFCFC;
-  /* box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06); */
-  border-radius: 8px;
+  /* box-shadow: 0rem 18rem 58rem 16rem rgba(0, 0, 0, 0.06); */
+  border-radius: 8rem;
   /* position: relative; */
 }
 
 
 
 .afterHero .boxes .box .circleBG {
-  width: 69px;
-  height: 71px;
+  width: 69rem;
+  height: 71rem;
   padding: 10rem;
 }
 .afterHero .boxes .box .circleBG img {
@@ -322,26 +327,26 @@ html, body {
   height: 100%;
 }
 .afterHero .boxes .box .boxheading {
-  width: 181px;
+  width: 181rem;
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 700;
   font-size: 22rem;
   line-height: 22rem;
   /* or 100% */
-  letter-spacing: 0.5px;
+  letter-spacing: 0.5rem;
   /* Text */
   color: #363940;
   padding: 10rem;
 }
 .afterHero .boxes .box p {
-  max-width: 230px;
+  max-width: 230rem;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 14rem;
   line-height: 133.11%;
-  /* or 19px */
+  /* or 19rem */
   padding: 10rem;
   margin-top: -10rem;
   /* Neutral / Grey 5 */
@@ -349,7 +354,7 @@ html, body {
 }
 
 .afterHero .boxes .box .arrow {
-  width: 44px;
+  width: 44rem;
   -ms-flex-item-align: end;
       align-self: flex-end;
   margin: 0 auto;
@@ -374,7 +379,7 @@ html, body {
   font-style: normal;
   font-weight: 900;
   font-size: 48rem;
-  line-height: 64px;
+  line-height: 64rem;
   /* identical to box height, or 133% */
   text-align: center;
   letter-spacing: 0.005em;
@@ -388,10 +393,10 @@ html, body {
   font-style: normal;
   font-weight: 400;
   font-size: 18rem;
-  line-height: 32px;
+  line-height: 32rem;
   /* identical to box height, or 178% */
   text-align: center;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.5rem;
   -webkit-font-feature-settings: "salt" on, "liga" off;
           font-feature-settings: "salt" on, "liga" off;
   /* Default / White */
@@ -426,7 +431,7 @@ html, body {
   font-style: normal;
   font-weight: 800;
   font-size: 48rem;
-  line-height: 64px;
+  line-height: 64rem;
   /* identical to box height, or 133% */
   text-align: center;
   -webkit-font-feature-settings: "salt" on, "liga" off;
@@ -487,7 +492,7 @@ html, body {
   letter-spacing: 0.5rem;
   /* Neutral / Grey 1 */
   background: #451F1F;
-  border-radius: 8px;
+  border-radius: 8rem;
   color: #F9F8F9;
   width: 219rem;
   height: 64rem;
@@ -502,8 +507,8 @@ html, body {
 }
 .getInTouch .column .button img {
   height: 25rem;
-  margin-top: 7px;
-  margin-right: -15px;
+  margin-top: 7rem;
+  margin-right: -15rem;
 }
 .getInTouch .contactPerson {
   width: 439.75rem;
@@ -516,9 +521,9 @@ html, body {
 }
 
 .founderBg{
-  /* width: 704px;
-  height: 704px; */
-  max-width: 2000px;
+  /* width: 704rem;
+  height: 704rem; */
+  max-width: 2000rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -575,14 +580,14 @@ background-size: 25% 80%
           align-items: center;
   margin-right: 10vw;
   margin-left: 10vw;
-/* border-radius: 0 0 704px 704px;
+/* border-radius: 0 0 704rem 704rem;
   background: linear-gradient(180deg, #FAAF18 0%, rgba(250, 175, 24, 0.3) 55.73%, rgba(250, 175, 24, 0.1) 80.73%);
-filter: blur(19px); */
+filter: blur(19rem); */
 /* transform: matrix(1, -0.07, -0.07, -1, 0, 0); */
 }
 
 .founderMsg .rightFmsg p:first-child{
-  /* max-width: 500px; */
+  /* max-width: 500rem; */
   font-family: 'Playfair Display';
   margin-bottom: 20rem;
 font-style: normal;
@@ -592,7 +597,7 @@ line-height: 64rem;
 /* or 133% */
 /* margin-right: 37%; */
 /* text-align: center; */
-letter-spacing: 0.5px;
+letter-spacing: 0.5rem;
 -webkit-font-feature-settings: 'salt' on, 'liga' off;
         font-feature-settings: 'salt' on, 'liga' off;
 white-space: nowrap;
@@ -602,22 +607,22 @@ color: #2D2F30;
 }
 
 .founderMsg .rightFmsg p:last-child {
-  max-width: 500px;
+  max-width: 500rem;
   font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
 font-size: 24rem;
 line-height: 31rem;
 text-align: justify ;
-/* margin-left: 60px; */
+/* margin-left: 60rem; */
 /* or 171% */
 
-letter-spacing: 0.5px;
+letter-spacing: 0.5rem;
 
 
 color: #4F4F4F;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 750rem) {
   body > div.afterHero > div > div.boxContainer > div > div.box.mob{
     display: none;
   }
@@ -689,7 +694,7 @@ color: #4F4F4F;
   .hero .heroRight img {
     margin-top: -1%;
     width: 100%;
-    height: 650px;
+    height: 650rem;
   }
   .afterHero .boxes .box p {
     width: auto;
@@ -804,7 +809,7 @@ color: #4F4F4F;
     letter-spacing: 0.5rem;
     /* Neutral / Grey 1 */
     background: #451F1F;
-    border-radius: 8px;
+    border-radius: 8rem;
     color: #F9F8F9;
     width: 219rem;
     height: 44rem;
@@ -838,7 +843,7 @@ color: #4F4F4F;
   }
 }
 
-@media screen and (max-width:1050px) {
+@media screen and (max-width:1050rem) {
   .hero .heroLeft .heroButton {
     
     display: -webkit-box;
@@ -854,12 +859,12 @@ color: #4F4F4F;
             align-items: center;
   }
   .hero .heroLeft .heroButton p{
-    margin-top: -5px;
-    margin-bottom: 0px;
+    margin-top: -5rem;
+    margin-bottom: 0rem;
     }
 
     .hero .heroRight .personCard {
-      width: 250px;
+      width: 250rem;
 
     }
 }
