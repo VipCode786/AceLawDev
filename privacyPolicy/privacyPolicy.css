@@ -13,7 +13,7 @@ html {
   text-size-adjust: none;
 }
 
-@media screen and (max-width:1050rem) {
+@media screen and (max-width:1050px) {
   html {
     font-size: 4.25%;
     -moz-text-size-adjust: none;
@@ -39,19 +39,19 @@ html, body {
 }
 
 .privacyPolicy {
-  margin-top: 50rem;
+  margin-top: 50px;
 }
 .privacyPolicy .heading {
   margin-left: 12%;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 36rem;
-  line-height: 23rem;
+  font-size: 36px;
+  line-height: 23px;
   color: #FAAF18;
 }
 .privacyPolicy .border {
-  height: 7rem;
+  height: 7px;
   background-color: #FAAF18;
 }
 .privacyPolicy .content {
@@ -62,20 +62,20 @@ html, body {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 20rem;
-  line-height: 23rem;
+  font-size: 20px;
+  line-height: 23px;
   color: #FAAF18;
 }
 .privacyPolicy .content p {
   font-family: "Poppins";
   font-style: normal;
-  font-size: 15rem;
-  line-height: 23rem;
+  font-size: 15px;
+  line-height: 23px;
   /* or 115% */
 }
 .privacyPolicy .content ul li {
   font-family: "Poppins";
   font-style: normal;
-  font-size: 15rem;
-  line-height: 23rem;
+  font-size: 15px;
+  line-height: 23px;
 }
