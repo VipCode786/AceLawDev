@@ -10,7 +10,7 @@ a{
   text-decoration: none;
 }
 .header {
-  margin-top: 20rem;
+  margin-top: 20px;
   margin-left: 10vw;
   margin-right: 10vw;
   -webkit-box-align: center;
@@ -30,7 +30,7 @@ a{
           justify-content: space-between;
 }
 .header .logo {
-  height: 109.2rem;
+  height: 109.2px;
 }
 .header .logo img {
   width: 100%;
@@ -46,27 +46,27 @@ a{
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 15rem;
-  line-height: 23rem;
+  font-size: 15px;
+  line-height: 23px;
   /* identical to box height, or 153% */
-  letter-spacing: 1.5rem;
+  letter-spacing: 1.5px;
   margin-left: 23px;
   /* padding: 10px; */
 }
 .header .menubar button {
   border: none;
   background: none;
-  margin-left: 32rem;
+  margin-left: 32px;
   color: #2D2F30;
-  margin-left: 32rem;
+  margin-left: 32px;
   text-align: center;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 15rem;
-  line-height: 23rem;
+  font-size: 15px;
+  line-height: 23px;
   /* identical to box height, or 153% */
-  letter-spacing: 1.5rem;
+  letter-spacing: 1.5px;
 }
 
 .header .menubar .dropdown-content {
@@ -94,15 +94,15 @@ a{
   z-index: 1;
 }  .header .menubar .dropdown-content a {
   color: #2D2F30;
-  margin-left: 32rem;
+  margin-left: 32px;
   white-space: nowrap;
   text-align: center;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 15rem;
-  line-height: 23rem;
-  letter-spacing: 1.5rem;
+  font-size: 15px;
+  line-height: 23px;
+  letter-spacing: 1.5px;
 } */
 .header .menubar .dropdown-content a {
   color: #2D2F30;
@@ -155,9 +155,9 @@ a{
 }
 .header .topnav a {
   color: white;
-  padding: 14rem 16rem;
+  padding: 14px 16px;
   text-decoration: none;
-  font-size: 17rem;
+  font-size: 17px;
   text-align: center;
   display: none;
 }
@@ -189,12 +189,12 @@ a.iconClose {
 }
 #myLinks a {
   color: black;
-  padding: 14rem 16rem;
+  padding: 14px 16px;
   text-decoration: none;
-  font-size: 37rem;
+  font-size: 37px;
   text-align: center;
   display: block;
-  line-height: 40rem;
+  line-height: 40px;
   text-transform: uppercase;
 }
 #myLinks a:hover {
@@ -203,13 +203,13 @@ a.iconClose {
 }
 #myLinks .dropdown {
   color: black;
-  padding: 14rem 16rem;
+  padding: 14px 16px;
   text-decoration: none;
-  font-size: 37rem;
+  font-size: 37px;
   text-align: center;
   display: block;
   background: none;
-  line-height: 28rem;
+  line-height: 28px;
 }
 #myLinks button {
   border: none;
@@ -227,7 +227,7 @@ a.iconClose {
           flex-direction: column;
   position: absolute;
   background: #7c0202;
-  /* margin-left: -36rem; */
+  /* margin-left: -36px; */
 }
 #myLinks .dropdown-content a {
   color: #ffffff;
@@ -289,8 +289,8 @@ a.iconClose {
 }
 @media screen and (max-width: 1050px) {
   .header {
-    /* margin-left: 50rem;
-    margin-right: 10rem; */
+    /* margin-left: 50px;
+    margin-right: 10px; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -305,14 +305,14 @@ a.iconClose {
             justify-content: space-between;
   }
   .header .logo {
-    margin-left: 0rem;
+    margin-left: 0px;
   }
   .header .menubar {
     display: none;
-    margin-left: 50rem;
+    margin-left: 50px;
   }
   .header .topnav {
-    margin-left: 50rem;
+    margin-left: 50px;
   }
   .header .topnav a.icon {
     display: block;

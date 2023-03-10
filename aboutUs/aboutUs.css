@@ -8,12 +8,11 @@
 
 html {
   font-size: 6.25%;
-  -webkit-text-size-adjust:none;
+ 
 }
 @media screen and (max-width:1050px) {
   html {
     font-size: 3.25%;
-    -webkit-text-size-adjust:none;
   }
 }
 body {
@@ -38,7 +37,7 @@ html, body {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100%;
-  height: 425rem;
+  height: 425px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -50,8 +49,8 @@ html, body {
           align-items: center;
 }
 .aboutUs .imageBg .about {
-  width: 308rem;
-  height: 98rem;
+  width: 308px;
+  height: 98px;
   -webkit-filter: blur(10px);
           filter: blur(10px);
   background: #472222;
@@ -69,10 +68,10 @@ html, body {
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 700;
-  font-size: 40rem;
-  line-height: 23rem;
+  font-size: 40px;
+  line-height: 23px;
   /* identical to box height, or 58% */
-  letter-spacing: 1.5rem;
+  letter-spacing: 1.5px;
   color: #FFFFFF;
 }
 .aboutUs .content {
@@ -90,14 +89,14 @@ html, body {
   margin: 5%;
 }
 .aboutUs .content p:nth-child(1) {
-  width: 1109rem;
+  width: 1109px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  font-size: 24rem;
-  line-height: 36rem;
+  font-size: 24px;
+  line-height: 36px;
   /* or 150% */
   text-align: justify;
-  letter-spacing: 1.5rem;
+  letter-spacing: 1.5px;
   color: #4F4F4F;
 }

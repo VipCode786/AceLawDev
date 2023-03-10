@@ -9,13 +9,11 @@
 
 html {
   font-size: 6.25%;
-  -webkit-text-size-adjust:none;
 }
 
 @media screen and (max-width:1050px) {
   html {
     font-size: 4.25%;
-    -webkit-text-size-adjust:none;
   }
 }
 body {
@@ -37,7 +35,7 @@ html, body {
 
 
 .iti {
-  margin-bottom: 10rem;
+  margin-bottom: 10px;
 }
 
 .iti__country {
@@ -68,12 +66,12 @@ html, body {
   -webkit-box-shadow: 0px 20px 30px rgba(102, 106, 245, 0.13);
           box-shadow: 0px 20px 30px rgba(102, 106, 245, 0.13);
   border-radius: 14px;
-  max-width: 935rem;
+  max-width: 935px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
   margin-bottom: 2%;
-  padding: 25rem;
+  padding: 25px;
 }
 .contactUs .contactBox .from {
   display: -webkit-box;
@@ -91,36 +89,36 @@ html, body {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 600;
-  font-size: 24rem;
-  line-height: 36rem;
+  font-size: 24px;
+  line-height: 36px;
   /* identical to box height */
-  letter-spacing: 0.08rem;
+  letter-spacing: 0.08px;
   color: #451F1F;
 }
 .contactUs .contactBox .from h2 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 12rem;
-  line-height: 18rem;
+  font-size: 12px;
+  line-height: 18px;
   /* identical to box height */
   letter-spacing: 0.08em;
   color: #000000;
 }
 .contactUs .contactBox .from form input {
-  width: 430rem;
-  height: 50rem;
-  margin-bottom: 10rem;
+  width: 430px;
+  height: 50px;
+  margin-bottom: 10px;
   background: #F5F5FF;
-  border: 0rem solid;
+  border: 0px solid;
   text-indent: 10px;
 }
 .contactUs .contactBox .from form input ::-moz-placeholder {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 12rem;
-  line-height: 15rem;
+  font-size: 12px;
+  line-height: 15px;
   /* identical to box height */
   letter-spacing: 0.08em;
   color: #9F9F9F;
@@ -129,8 +127,8 @@ html, body {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 12rem;
-  line-height: 15rem;
+  font-size: 12px;
+  line-height: 15px;
   /* identical to box height */
   letter-spacing: 0.08em;
   color: #9F9F9F;
@@ -139,8 +137,8 @@ html, body {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 12rem;
-  line-height: 15rem;
+  font-size: 12px;
+  line-height: 15px;
   /* identical to box height */
   letter-spacing: 0.08em;
   color: #9F9F9F;
@@ -149,8 +147,8 @@ html, body {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 12rem;
-  line-height: 15rem;
+  font-size: 12px;
+  line-height: 15px;
   /* identical to box height */
   letter-spacing: 0.08em;
   color: #9F9F9F;
@@ -159,8 +157,8 @@ html, body {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 12rem;
-  line-height: 15rem;
+  font-size: 12px;
+  line-height: 15px;
   /* identical to box height */
   letter-spacing: 0.08em;
   color: #9F9F9F;
@@ -177,18 +175,18 @@ html, body {
   color: #FFFFFF;
 }
 .contactUs .contactBox .from form textarea {
-  width: 430rem;
-  height: 125rem;
-  border: 0rem solid;
+  width: 430px;
+  height: 125px;
+  border: 0px solid;
   background: #F5F5FF;
-  margin-bottom: 10rem;
+  margin-bottom: 10px;
 }
 .contactUs .contactBox .from form textarea ::-moz-placeholder {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 12rem;
-  line-height: 18rem;
+  font-size: 12px;
+  line-height: 18px;
   /* identical to box height */
   letter-spacing: 0.08em;
   color: #9F9F9F;
@@ -197,8 +195,8 @@ html, body {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 12rem;
-  line-height: 18rem;
+  font-size: 12px;
+  line-height: 18px;
   /* identical to box height */
   letter-spacing: 0.08em;
   color: #9F9F9F;
@@ -207,8 +205,8 @@ html, body {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 12rem;
-  line-height: 18rem;
+  font-size: 12px;
+  line-height: 18px;
   /* identical to box height */
   letter-spacing: 0.08em;
   color: #9F9F9F;
@@ -217,8 +215,8 @@ html, body {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 12rem;
-  line-height: 18rem;
+  font-size: 12px;
+  line-height: 18px;
   /* identical to box height */
   letter-spacing: 0.08em;
   color: #9F9F9F;
@@ -227,8 +225,8 @@ html, body {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 12rem;
-  line-height: 18rem;
+  font-size: 12px;
+  line-height: 18px;
   /* identical to box height */
   letter-spacing: 0.08em;
   color: #9F9F9F;
@@ -241,13 +239,13 @@ html, body {
       align-self: flex-end;
 }
 .contactUs .contactBox .contactInfoMap .map {
-  width: 400rem;
-  height: 261rem;
+  width: 400px;
+  height: 261px;
   border: 5px solid #000000;
 }
 .contactUs .contactBox .contactInfoMap .contactInfo {
-  margin-top: 10rem;
-  margin-bottom: -10rem;
+  margin-top: 10px;
+  margin-bottom: -10px;
 }
 .contactUs .contactBox .contactInfoMap .contactInfo .row {
   display: -webkit-box;
@@ -264,16 +262,16 @@ html, body {
           align-items: center;
 }
 .contactUs .contactBox .contactInfoMap .contactInfo .row img {
-  margin-right: 15rem;
-  height: 30rem;
-  width: 30rem;
+  margin-right: 15px;
+  height: 30px;
+  width: 30px;
 }
 .contactUs .contactBox .contactInfoMap .contactInfo .row p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 16rem;
-  line-height: 19rem;
+  font-size: 16px;
+  line-height: 19px;
   letter-spacing: 0.025em;
   color: #000000;
 }
@@ -301,7 +299,7 @@ html, body {
     max-width: 70vw;
   }
   .contactUs .contactBox .contactInfoMap {
-    margin-top: 35rem;
+    margin-top: 35px;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;

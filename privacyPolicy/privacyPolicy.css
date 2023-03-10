@@ -8,14 +8,14 @@
 
 html {
   font-size: 6.25%;
-  -webkit-text-size-adjust:none;
+ 
 }
 
 @media screen and (max-width:1050px) {
   html {
     font-size: 4.25%;
-    -webkit-text-size-adjust:none;
-  }
+ 
+  }   
 }
 body {
   padding: 0;
@@ -35,7 +35,7 @@ html, body {
 }
 
 .privacyPolicy {
-  margin-top: 50rem;
+  margin-top: 50px;
 }
 .privacyPolicy .heading {
   margin-left: 12%;

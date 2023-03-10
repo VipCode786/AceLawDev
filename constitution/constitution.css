@@ -8,14 +8,12 @@
 
 html {
   font-size: 6.25%;
-  -webkit-text-size-adjust:none;
 }
 
 
 @media screen and (max-width:1050px) {
   html {
     font-size: 4.25%;
-    -webkit-text-size-adjust:none;
   }
 }
 body {
@@ -37,10 +35,10 @@ html, body {
 
 .constitution .backgroundBorder {
   background: #451F1F;
-  height: 8rem;
+  height: 8px;
   width: 100%;
-  margin-bottom: 100rem;
-  margin-top: 50rem;
+  margin-bottom: 100px;
+  margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -52,8 +50,8 @@ html, body {
           align-items: center;
 }
 .constitution .menu {
-  margin-left: 50rem;
-  margin-right: 50rem;
+  margin-left: 50px;
+  margin-right: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -65,8 +63,8 @@ html, body {
 }
 .constitution .menu a {
   text-decoration: none;
-  margin-left: 15rem;
-  padding: 8rem 25rem 8rem 25rem;
+  margin-left: 15px;
+  padding: 8px 25px 8px 25px;
   color: #000000;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -80,13 +78,13 @@ html, body {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 20rem;
-  line-height: 23rem;
+  font-size: 20px;
+  line-height: 23px;
   /* or 115% */
-  letter-spacing: 1.5rem;
+  letter-spacing: 1.5px;
   background: #FFC727;
-  -webkit-box-shadow: 0rem 4rem 4rem rgba(0, 0, 0, 0.25);
-          box-shadow: 0rem 4rem 4rem rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .constitution .menu a:hover {
   background-color: #451f1f;
@@ -104,7 +102,7 @@ html, body {
   margin-right: auto;
 }
 .constitutionLaw {
-  margin-bottom: 100rem;
+  margin-bottom: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -138,10 +136,10 @@ html, body {
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 400;
-  font-size: 50rem;
+  font-size: 50px;
   line-height: 143.61%;
-  /* or 92rem */
-  max-width: 648rem;
+  /* or 92px */
+  max-width: 648px;
   letter-spacing: 0.1em;
   color: #000000;
 }
@@ -149,10 +147,10 @@ html, body {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 20rem;
+  font-size: 20px;
   line-height: 143.61%;
-  /* or 34rem */
-  max-width: 528rem;
+  /* or 34px */
+  max-width: 528px;
   letter-spacing: 0.1em;
   color: #000000;
   text-align: justify;
@@ -165,17 +163,17 @@ html, body {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 20rem;
+  font-size: 20px;
   line-height: 143.61%;
-  /* or 34rem */
-  max-width: 685rem;
+  /* or 34px */
+  max-width: 685px;
   letter-spacing: 0.1em;
   color: #000000;
 }
 .constitutionLaw .column .button {
   background: #FAAF18;
-  width: 255rem;
-  height: 67rem;
+  width: 255px;
+  height: 67px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -190,12 +188,12 @@ html, body {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 32rem;
+  font-size: 32px;
   line-height: 143.61%;
-  /* identical to box height, or 46rem */
+  /* identical to box height, or 46px */
   letter-spacing: 0.1em;
   color: #000000;
-  border-radius: 4rem;
+  border-radius: 4px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -205,16 +203,16 @@ html, body {
   text-align: center;
 }
 .constitutionLaw .image {
-  width: 828rem;
-  height: 480rem;
+  width: 828px;
+  height: 480px;
 }
 .constitutionLaw .image img {
   width: 100%;
   height: 100%;
 }
 .constitutionLaw .imageArbitration {
-  width: 600rem;
-  height: 696rem;
+  width: 600px;
+  height: 696px;
 }
 .constitutionLaw .imageArbitration img {
   width: 100%;
@@ -257,22 +255,22 @@ html, body {
             align-items: center;
   }
   .constitutionLaw .column .heading {
-    font-size: 32rem;
+    font-size: 32px;
   }
   .constitutionLaw .column .content {
-    font-size: 16rem;
+    font-size: 16px;
   }
   .constitutionLaw .column .button {
-    width: 135rem;
-    height: 47rem;
+    width: 135px;
+    height: 47px;
   }
   .constitutionLaw .column .button p {
-    font-size: 16rem;
+    font-size: 16px;
   }
   .constitutionLaw .litigation {
     width: 100vw;
     height: auto;
-    margin-top: 0rem;
+    margin-top: 0px;
   }
   .constitutionLaw .litigation img {
     width: 100%;
@@ -288,9 +286,9 @@ html, body {
 }
 @media screen and (max-width: 1020px) {
   .constitutionLaw .litigation {
-    width: 500rem;
-    height: 507rem;
-    margin-top: 0rem;
+    width: 500px;
+    height: 507px;
+    margin-top: 0px;
   }
   .constitutionLaw .litigation img {
     width: 100%;

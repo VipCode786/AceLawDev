@@ -27,11 +27,11 @@
   width: 100%;
 }
 .rowCopyright p {
-  margin-left: 200rem;
+  margin-left: 200px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 14rem;
+  font-size: 14px;
   line-height: 24px;
   /* identical to box height, or 171% */
   -webkit-font-feature-settings: "salt" on, "liga" off;
@@ -41,8 +41,8 @@
 }
 .rowCopyright .footer-menu {
   float: right;
-  margin-right: 200rem;
-  letter-spacing: 1rem;
+  margin-right: 200px;
+  letter-spacing: 1px;
 }
 .rowCopyright .footer-menu a {
   color: #cfd2d6;
@@ -50,12 +50,12 @@
   text-decoration: none;
 }
 .rowCopyright .footer-menu a i {
-  height: 30rem;
-  width: 300rem;
+  height: 30px;
+  width: 300px;
 }
 .rowCopyright .footer-menu .fa-brands {
-  height: 300rem;
-  width: 300rem;
+  height: 300px;
+  width: 300px;
 }
 
 .footer {
@@ -64,11 +64,11 @@
   background: linear-gradient(180deg, #451F1F 0%, #924545 100%);
 }
 .footer footer {
-  margin-left: 160rem;
-  margin-right: 160rem;
+  margin-left: 160px;
+  margin-right: 160px;
 }
 .footer footer .lastlogo {
-  margin-top: -20rem;
+  margin-top: -20px;
 }
 .footer .row {
   display: -webkit-box;
@@ -96,7 +96,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 16rem;
+  font-size: 16px;
   line-height: 19px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -107,16 +107,16 @@
   letter-spacing: 0.025em;
   text-decoration: none;
   color: #FFFFFF;
-  padding: 10rem;
+  padding: 10px;
 }
 .footer .row .column h3 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 35rem;
-  line-height: 24rem;
-  letter-spacing: 0.025rem;
-  margin-bottom: 25rem;
+  font-size: 35px;
+  line-height: 24px;
+  letter-spacing: 0.025px;
+  margin-bottom: 25px;
   color: #FFFFFF;
 }
 
@@ -127,8 +127,8 @@
     background: linear-gradient(180deg, #451F1F 0%, #924545 100%);
   }
   .footer footer {
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 10px;
+    margin-right: 10px;
     overflow-x: hidden;
   }
   .rowCopyright {
@@ -153,11 +153,11 @@
     width: 100%;
   }
   .rowCopyright p {
-    margin-left: 2rem;
+    margin-left: 2px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    font-size: 14rem;
+    font-size: 14px;
     line-height: 24px;
     /* identical to box height, or 171% */
     -webkit-font-feature-settings: "salt" on, "liga" off;
@@ -167,8 +167,8 @@
   }
   .rowCopyright .footer-menu {
     float: right;
-    margin-right: 2rem;
-    letter-spacing: 1rem;
+    margin-right: 2px;
+    letter-spacing: 1px;
   }
   .rowCopyright .footer-menu a {
     color: #cfd2d6;
@@ -176,12 +176,12 @@
     text-decoration: none;
   }
   .rowCopyright .footer-menu a i {
-    height: 30rem;
-    width: 300rem;
+    height: 30px;
+    width: 300px;
   }
   .rowCopyright .footer-menu .fa-brands {
-    height: 300rem;
-    width: 300rem;
+    height: 300px;
+    width: 300px;
   }
 }
 
