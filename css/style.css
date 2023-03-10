@@ -51,7 +51,7 @@ html {
   text-size-adjust: none;
 }
 
-@media screen and (max-width:1050rem) {
+@media screen and (max-width:1050px) {
   html {
     font-size: 3.25%;
     -moz-text-size-adjust: none;
@@ -622,7 +622,7 @@ letter-spacing: 0.5rem;
 
 color: #4F4F4F;
 }
-@media screen and (max-width: 750rem) {
+@media screen and (max-width: 750px) {
   body > div.afterHero > div > div.boxContainer > div > div.box.mob{
     display: none;
   }
@@ -633,6 +633,12 @@ color: #4F4F4F;
         -ms-flex-pack: center;
   
             justify-content: center;
+  }
+
+  .afterHero .boxes .box {
+  
+    height: 330rem;
+
   }
   .founderMsg{
     -webkit-box-orient: vertical;
@@ -843,7 +849,7 @@ color: #4F4F4F;
   }
 }
 
-@media screen and (max-width:1050rem) {
+@media screen and (max-width:1050px) {
   .hero .heroLeft .heroButton {
     
     display: -webkit-box;

@@ -14,7 +14,7 @@ html {
   text-size-adjust: none;
 }
 
-@media screen and (max-width:1050rem) {
+@media screen and (max-width:1050px) {
   html {
     font-size: 4.25%;
     -moz-text-size-adjust: none;
@@ -179,7 +179,7 @@ html, body {
   color: #000AFF;
 }
 
-@media screen and (max-width: 950rem) {
+@media screen and (max-width: 950px) {
   .career .head {
     height: auto;
     margin-left: 10%;
