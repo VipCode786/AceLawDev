@@ -8,11 +8,12 @@
 
 html {
   font-size: 6.25%;
-  
+  -webkit-text-size-adjust:none;
 }
 @media screen and (max-width:1050px) {
   html {
     font-size: 3.25%;
+    -webkit-text-size-adjust:none;
   }
 }
 body {
