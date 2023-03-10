@@ -51,7 +51,7 @@ html {
   text-size-adjust: none;
 }
 
-@media screen and (max-width:1050px) {
+@media screen and (max-width:1050em) {
   html {
     font-size: 3.25%;
     -moz-text-size-adjust: none;
@@ -622,7 +622,7 @@ letter-spacing: 0.5rem;
 
 color: #4F4F4F;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 750em) {
   body > div.afterHero > div > div.boxContainer > div > div.box.mob{
     display: none;
   }
@@ -849,7 +849,7 @@ color: #4F4F4F;
   }
 }
 
-@media screen and (max-width:1050px) {
+@media screen and (max-width:1050em) {
   .hero .heroLeft .heroButton {
     
     display: -webkit-box;
