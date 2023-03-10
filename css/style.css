@@ -621,6 +621,11 @@ color: #4F4F4F;
   body > div.afterHero > div > div.boxContainer > div > div.box.mob{
     display: none;
   }
+
+  .hero .heroLeft .heroP {
+
+    font-size: 14px;
+  }
   .afterHero .boxes {
   
     -webkit-box-pack: center;
