@@ -800,6 +800,7 @@ color: #4F4F4F;
     letter-spacing: 0.5px;
     -webkit-font-feature-settings: "salt" on, "liga" off;
             font-feature-settings: "salt" on, "liga" off;
+            white-space: nowrap;
   }
   .getInTouch .column .content {
     font-family: "Poppins";

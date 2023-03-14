@@ -196,6 +196,7 @@ a.iconClose {
   display: block;
   line-height: 40px;
   text-transform: uppercase;
+  font-weight: 500;
 }
 #myLinks a:hover {
   background-color: #e4c70e;
@@ -210,6 +211,7 @@ a.iconClose {
   display: block;
   background: none;
   line-height: 28px;
+  font-weight: 500;
 }
 #myLinks button {
   border: none;
@@ -237,9 +239,9 @@ a.iconClose {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-transform: translate(-30%, -0%);
-      -ms-transform: translate(-30%, -0%);
-          transform: translate(-30%, -0%);
+  -webkit-transform: translate(-36.2%, -0%);
+      -ms-transform: translate(-36.2%, -0%);
+          transform: translate(-36.2%, -0%);
 }
 #myLinks .dropdown-content:hover {
   display: -webkit-box;
@@ -317,6 +319,23 @@ a.iconClose {
   .header .topnav a.icon {
     display: block;
   }
+
+  #myLinks a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+    display: block;
+    line-height: 5px;
+    text-transform: uppercase;
+}
+#myLinks .dropdown {
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  line-height: 5px;
+}
 }
 .expand{
   display: -webkit-box;

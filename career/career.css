@@ -184,6 +184,7 @@ html, body {
     height: auto;
     margin-left: 10%;
     margin-right: 10%;
+    max-width: 90vw;
   }
   .career .head .left h1 {
     font-size: 32px;
@@ -191,11 +192,18 @@ html, body {
   .career .careerContact {
     margin-left: 10%;
     margin-right: 10%;
+    max-width: 90vw;
   }
   .career .careerContact h1 {
-    font-size: 32px;
+    font-size: 22px;
+    line-height: 30px;
   }
   .career .careerContact p a {
-    font-size: 20px;
+    font-size: 14px;
+  }
+
+  .career .careerContact p {
+    font-size: 16px;
+    line-height: 25px;
   }
 }
