@@ -621,7 +621,16 @@ color: #4F4F4F;
   body > div.afterHero > div > div.boxContainer > div > div.box.mob{
     display: none;
   }
-
+  .founderMsg .rightFmsg p:first-child{
+    font-size: 32px;
+  }
+  .founderMsg .rightFmsg p:last-child {
+    font-size: 20px;
+    line-height: 31px;
+    text-align: justify;
+    /* margin-left: 60px; */
+    letter-spacing: 0px;
+  }
   .hero .heroLeft .heroP {
 
     font-size: 14px;
@@ -688,6 +697,10 @@ color: #4F4F4F;
     margin-right: auto;
     display: contents;
   }
+
+  .afterHero .heading {
+    font-size: 38px;
+  }
   .hero .heroRight .personCard {
     margin-left: 0%;
   }
@@ -703,7 +716,7 @@ color: #4F4F4F;
     padding: 5px;
   }
   .counterBG .counterHeading {
-    font-size: 40px;
+    font-size: 20px;
   }
   .counterBG .counter img {
     margin-left: 50px;
