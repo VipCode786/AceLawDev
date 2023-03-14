@@ -188,8 +188,8 @@ html, body {
 
 
 .hero .heroRight .manImage {
-  width: 408px;
-  height: 612px;
+  width: 408rem;
+  height: 612rem;
 }
 .hero .heroRight .manImage img {
   /* margin-top: 25%; */
