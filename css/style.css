@@ -188,8 +188,8 @@ html, body {
 
 
 .hero .heroRight .manImage {
-  width: 408rem;
-  height: 612rem;
+  width: 408px;
+  height: 612px
 }
 .hero .heroRight .manImage img {
   /* margin-top: 25%; */
@@ -618,6 +618,11 @@ letter-spacing: 0.5px;
 color: #4F4F4F;
 }
 @media screen and (max-width: 750px) {
+
+  .hero .heroRight .manImage {
+    width: 308px;
+    height: 512px
+  }
   body > div.afterHero > div > div.boxContainer > div > div.box.mob{
     display: none;
   }
