@@ -143,8 +143,8 @@ html, body {
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
-  line-height: 143.61%;
-  /* or 92px */
+  line-height: 100%;
+  margin-bottom: 30px;
   max-width: 648px;
   letter-spacing: 0.1em;
   color: #000000;
@@ -157,12 +157,12 @@ html, body {
   line-height: 143.61%;
   /* or 34px */
   max-width: 528px;
-  letter-spacing: 0.1em;
+  /* letter-spacing: 0.1em; */
   color: #000000;
   text-align: justify;
-    -ms-hyphens: auto;
+    /* -ms-hyphens: auto;
         hyphens: auto;
-    -webkit-hyphens: auto;
+    -webkit-hyphens: auto; */
     word-spacing: -0.05em;
 }
 .constitutionLaw .column .contentArbitration {
@@ -173,8 +173,10 @@ html, body {
   line-height: 143.61%;
   /* or 34px */
   max-width: 685px;
-  letter-spacing: 0.1em;
+  /* letter-spacing: 0.1em; */
   color: #000000;
+  text-align: justify;
+  /* hyphens: auto; */
 }
 .constitutionLaw .column .button {
   background: #FAAF18;
@@ -189,6 +191,7 @@ html, body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          margin-top: 30px;
 }
 .constitutionLaw .column .button p {
   font-family: "Inter";
@@ -218,7 +221,7 @@ html, body {
 }
 .constitutionLaw .imageArbitration {
   width: 600px;
-  height: 696px;
+  /* height: 696px; */
 }
 .constitutionLaw .imageArbitration img {
   width: 100%;

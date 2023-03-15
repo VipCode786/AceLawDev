@@ -34,6 +34,8 @@
 .aniright {
   -webkit-animation: mover 2s 1;
           animation: mover 2s 1;
+          margin-left: auto;
+          margin-right: auto;
 }
 
 @-webkit-keyframes mover {

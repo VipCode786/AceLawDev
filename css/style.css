@@ -120,11 +120,8 @@ html, body {
   margin-right: 10vw;
 }
 .hero .heroLeft {
-  
   display: -webkit-box;
-  
   display: -ms-flexbox;
-  
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -134,24 +131,25 @@ html, body {
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
+
 .hero .heroLeft .heroHeading {
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 700;
-  font-size: 90px;
+  font-size: 90em;
   line-height: 120%;
   /* or 108px */
   letter-spacing: 0.02em;
   max-width: 911.78px;
   color: #451F1F;
   margin-bottom: 20px;
- 
 }
+
 .hero .heroLeft .heroP {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 24em;
   line-height: 158%;
   /* or 38px */
   text-align: left;
@@ -166,6 +164,7 @@ html, body {
   margin-bottom: 20px;
   color: #4F4F4F;
 }
+
 .hero .heroLeft .heroButton {
   width: 206px;
   height: 40px;
@@ -188,8 +187,8 @@ html, body {
 
 
 .hero .heroRight .manImage {
-  width: 408px;
-  height: 612px
+  width: 408em;
+  height: 612em
 }
 .hero .heroRight .manImage img {
   /* margin-top: 25%; */
@@ -198,7 +197,7 @@ html, body {
 }
 .hero .heroRight .personCard {
   max-width: 382px;
-  height: 114px;
+  /* height: 114px; */
   left: 851px;
   top: 834.51px;
   background: #FFFFFF;
@@ -220,7 +219,7 @@ html, body {
   font-family: "Plus Jakarta Sans";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 32em;
   line-height: 36px;
   /* identical to box height, or 150% */
   text-align: center;
@@ -230,11 +229,13 @@ html, body {
   font-family: "Plus Jakarta Sans";
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 24em;
   line-height: 36px;
   /* identical to box height, or 225% */
   text-align: center;
   color: #87898C;
+  padding-bottom: 10px;
+
 }
 
 .afterHero {
@@ -450,8 +451,8 @@ html, body {
       -ms-flex-pack: center;
           justify-content: center;
   align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   padding: 50px;
 }
 .getInTouch .column .heading {
