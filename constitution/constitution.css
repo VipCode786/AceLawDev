@@ -70,7 +70,8 @@ html, body {
 .constitution .menu a {
   text-decoration: none;
   margin-left: 15px;
-  padding: 8px 25px 8px 25px;
+  /* padding: 8px 25px 8px 25px; */
+  padding: 10px 15px;
   color: #000000;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -84,7 +85,8 @@ html, body {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 1.5vw;
   line-height: 23px;
   /* or 115% */
   letter-spacing: 1.5px;
@@ -237,7 +239,7 @@ html, body {
   margin-top: -100%;
 }
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1050px) {
   .constitution {
     display: none;
   }

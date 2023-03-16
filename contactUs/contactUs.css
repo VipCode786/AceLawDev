@@ -78,6 +78,7 @@ html, body {
   margin-top: 5%;
   margin-bottom: 2%;
   padding: 25px;
+  
 }
 .contactUs .contactBox .from {
   display: -webkit-box;
@@ -184,6 +185,7 @@ html, body {
   width: 430px;
   height: 125px;
   border: 0px solid;
+  text-indent: 10px;
   background: #F5F5FF;
   margin-bottom: 10px;
 }
@@ -193,6 +195,7 @@ html, body {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
+  text-indent: 10px;
   /* identical to box height */
   letter-spacing: 0.08em;
   color: #9F9F9F;
