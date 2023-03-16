@@ -85,7 +85,7 @@ html, body {
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
+          align-itpxs: center;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
 }
@@ -108,7 +108,7 @@ html, body {
           justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
+          align-itpxs: center;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   background: url("../images/background.png") no-repeat;
@@ -136,10 +136,10 @@ html, body {
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 700;
-  font-size: 90em;
+  font-size: 90px;
   line-height: 120%;
   /* or 108px */
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02px;
   max-width: 911.78px;
   color: #451F1F;
   margin-bottom: 20px;
@@ -149,7 +149,7 @@ html, body {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 24em;
+  font-size: 24px;
   line-height: 158%;
   /* or 38px */
   text-align: left;
@@ -158,7 +158,7 @@ html, body {
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
+          align-itpxs: center;
   letter-spacing: 0.5px;
   /* Neutral / Grey 6 */
   margin-bottom: 20px;
@@ -178,7 +178,7 @@ html, body {
   /* or 22px */
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
+          align-itpxs: center;
   text-align: center;
   padding-top: 9px;
   color: #F9F8F9;
@@ -187,8 +187,9 @@ html, body {
 
 
 .hero .heroRight .manImage {
-  width: 408em;
-  height: 612em
+  width: 408px;
+  height: 612px;
+  margin-left: 6%;
 }
 .hero .heroRight .manImage img {
   /* margin-top: 25%; */
@@ -207,7 +208,7 @@ html, body {
   margin-left: 8%;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
+          align-itpxs: center;
   
 -webkit-box-shadow: 0px -1px 16px 10px rgba(0,0,0,0.75);
   
@@ -219,7 +220,7 @@ html, body {
   font-family: "Plus Jakarta Sans";
   font-style: normal;
   font-weight: 700;
-  font-size: 32em;
+  font-size: 32px;
   line-height: 36px;
   /* identical to box height, or 150% */
   text-align: center;
@@ -229,7 +230,7 @@ html, body {
   font-family: "Plus Jakarta Sans";
   font-style: normal;
   font-weight: 500;
-  font-size: 24em;
+  font-size: 24px;
   line-height: 36px;
   /* identical to box height, or 225% */
   text-align: center;
@@ -303,11 +304,10 @@ html, body {
   margin: 20px;
   width: 260px;
   height: 290px;
-  left: 222px;
-  top: 1402px;
   background: #FCFCFC;
   /* box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06); */
   border-radius: 8px;
+  margin: 5rpx 5rpx 30rpx 5rpx;
   /* position: relative; */
 }
 
@@ -351,7 +351,7 @@ html, body {
 
 .afterHero .boxes .box .arrow {
   width: 44px;
-  -ms-flex-item-align: end;
+  -ms-flex-itpx-align: end;
       align-self: flex-end;
   margin: 0 auto;
   /* align-self: flex-end; */
@@ -378,7 +378,7 @@ html, body {
   line-height: 64px;
   /* identical to box height, or 133% */
   text-align: center;
-  letter-spacing: 0.005em;
+  letter-spacing: 0.005px;
   -webkit-font-feature-settings: "salt" on, "liga" off;
           font-feature-settings: "salt" on, "liga" off;
   /* Default / White */
@@ -410,11 +410,11 @@ html, body {
           flex-direction: row;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
+          align-itpxs: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  align-items: center;
+  align-itpxs: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -446,11 +446,11 @@ html, body {
           flex-direction: row;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
+          align-itpxs: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  align-items: center;
+  align-itpxs: center;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   padding: 50px;
@@ -573,7 +573,7 @@ background-size: 25% 80%
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
+          align-itpxs: center;
   margin-right: 10vw;
   margin-left: 10vw;
 /* border-radius: 0 0 704px 704px;
@@ -621,8 +621,8 @@ color: #4F4F4F;
 @media screen and (max-width: 750px) {
 
   .hero .heroRight .manImage {
-    width: 308px;
-    height: 512px
+    width: 250px;
+    height: 412px;
   }
   body > div.afterHero > div > div.boxContainer > div > div.box.mob{
     display: none;
@@ -665,7 +665,7 @@ color: #4F4F4F;
             flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center;
+            align-itpxs: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -683,7 +683,7 @@ color: #4F4F4F;
             flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center;
+            align-itpxs: center;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -748,7 +748,7 @@ color: #4F4F4F;
             flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center;
+            align-itpxs: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -768,14 +768,14 @@ color: #4F4F4F;
             flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center;
+            align-itpxs: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    align-items: center;
+    align-itpxs: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    align-items: center;
+    align-itpxs: center;
     -ms-flex-direction: row-reverse;
         flex-direction: row-reverse;
     padding: 50px;
@@ -790,7 +790,7 @@ color: #4F4F4F;
             flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center;
+            align-itpxs: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -841,7 +841,7 @@ color: #4F4F4F;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center;
+            align-itpxs: center;
     padding-top: 27px;
     padding: 10px;
     margin-left: 20px;
@@ -876,7 +876,7 @@ color: #4F4F4F;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center;
+            align-itpxs: center;
   }
   .hero .heroLeft .heroButton p{
     margin-top: -5px;
