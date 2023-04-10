@@ -55,9 +55,11 @@ html, body {
       -ms-flex-align: center;
           align-items: center;
           position: fixed;
+          margin-top: 65px;
+
 }
 .constitution .menu {
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-left: 50px;
   margin-right: 50px;
   display: -webkit-box;
@@ -69,6 +71,7 @@ html, body {
           flex-direction: row;
   /* position: absolute; */
   position: fixed;
+  
 }
 .constitution .menu a {
   text-decoration: none;
@@ -96,6 +99,7 @@ html, body {
   background: #FFC727;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 4px;
 }
 .constitution .menu a:hover {
   background-color: #451f1f;
@@ -200,6 +204,25 @@ html, body {
       -ms-flex-align: center;
           align-items: center;
           margin-top: 30px;
+          border-radius: 4px;
+}
+
+
+.constitutionLaw .column .button :hover{ 
+  background: #451F1F;
+  width: 255px;
+  height: 67px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+          color: #ffffff;
+          /* margin-top: 30px; */
 }
 .constitutionLaw .column .button p {
   font-family: "Inter";
