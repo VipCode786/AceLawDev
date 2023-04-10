@@ -131,7 +131,9 @@ html, body {
       flex-wrap: nowrap;
   margin-left: 6vw;
   margin-right: 6vw;
-  padding-top: 100px
+  padding-top: 100px;
+  margin-top: 30px;
+
 }
 .constitutionLaw .column {
   display: -webkit-box;
