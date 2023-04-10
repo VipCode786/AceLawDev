@@ -278,14 +278,19 @@
     /* .owl-prev i, .owl-next i {transform : scale(2,5); color: #ccc;} */
   }
   .testimonialDiv .heading {
-    font-size: 50px;
+    font-size: 24px;
   }
   .testimonialDiv .item-testimonials {
     height: auto;
+    margin: 0px;
   }
   .testimonialDiv .item-testimonials p {
     padding: 20px;
   }
-
- 
+  .testimonialDiv .owl-carousel .owl-prev {
+    left: -10px;
+}
+.testimonialDiv .owl-carousel .owl-next {
+  right: -10px;
+}
 }

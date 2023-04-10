@@ -54,6 +54,7 @@ html, body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          position: fixed;
 }
 .constitution .menu {
   margin-left: 50px;
@@ -65,7 +66,8 @@ html, body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  position: absolute;
+  /* position: absolute; */
+  position: fixed;
 }
 .constitution .menu a {
   text-decoration: none;
@@ -128,6 +130,7 @@ html, body {
       flex-wrap: nowrap;
   margin-left: 6vw;
   margin-right: 6vw;
+  padding-top: 100px
 }
 .constitutionLaw .column {
   display: -webkit-box;
@@ -239,14 +242,27 @@ html, body {
   margin-top: -100%;
 }
 
+.mobImage{
+  display: none;
+}
 @media screen and (max-width: 1050px) {
   .constitution {
     display: none;
   }
+    .constitutionLaw {
+     padding: 0%;
+    }
+  
 }
 @media screen and (max-width: 850px) {
   .constitution {
     display: none;
+  }
+  .desktopImage{
+    display: none;
+  }
+  .mobImage{
+    display: block;
   }
   .constitutionLaw {
     margin-left: 5%;
@@ -256,6 +272,7 @@ html, body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+
   }
   .constitutionLaw .column {
     -webkit-box-pack: center;
@@ -267,6 +284,8 @@ html, body {
   }
   .constitutionLaw .column .heading {
     font-size: 32px;
+    text-align: center;
+    margin-bottom: 0%;
   }
   .constitutionLaw .column .content {
     font-size: 16px;
@@ -286,6 +305,11 @@ html, body {
   .constitutionLaw .litigation img {
     width: 100%;
     height: 100%;
+  }
+
+  .constitutionLaw .image {
+    width: auto;
+    height: auto;
   }
 }
 @media screen and (max-width: 1063px) {

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="image/x-icon" href="/css/image/logo.png">
+    <link rel="stylesheet" href="./disclaimer/disclaimer.css">
+	<meta name="viewport" content="width=device-width, initial-scale=0" />
+	
+	<title>Disclaimer Page</title>
+</head>
+<body>
+    <div class="disclaimer">
+    <div class="blank"></div>
+	<h1>Disclaimer</h1>
+	<p>The Bar Council of India does not permit solicitation of work and advertising by legal practitioners and advocates. By accessing the Shardul Amarchand Mangaldas & Co. website (our website), the user acknowledges that:</p>
+<ul>
+<li>The user wishes to gain more information about us for his/her information and use. He/She also acknowledges that there has been
+no attempt by us to advertise or solicit work.</li>
+<li>Any information obtained or downloaded by the user from our website does not lead to the creation of the client - attorney
+relationship between the Firm and the user.</li>
+<li>None of the information contained in our website amounts to any form of legal opinion or legal advice.</li>
+<li>Our website uses cookies to improve your user experience. By using our site, you agree to our use of cookies . To find out more,
+please see our <b>Cookies Policy</b> & <b>Privacy Policy</b></li>
+<li>All information contained in our website is the intellectual property of the Firm.</li>
+</ul>
+<div class="buttonCenter">
+	<button id="accept-button">Agree</button>&nbsp;&nbsp;&nbsp;&nbsp;
+    <button id="reject-button">Disagree</button>
+</div>
+    
+	
+	<script>
+       
+// Add event listener to accept button
+document.getElementById('accept-button').addEventListener('click', function() {
+	// Set a cookie to remember that user has accepted disclaimer (expires in 30 days)
+	setCookie('disclaimerAccepted', 'true', 30);
+	
+	// Redirect back to main page
+	window.location.href = 'index.html';
+});
+
+document.getElementById('reject-button').addEventListener('click', function() {
+
+	// Redirect back to main page
+	window.location.href = 'http://www.google.com'
+});
+
+// Function to set a cookie
+function setCookie(name, value, days) {
+	var expires = "";
+	if (days) {
+		var date = new Date();
+		date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+		expires = "; expires=" + date.toUTCString();
+	}
+	document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+}
+
+    </script>
+	</div>
+</body>
+</html>

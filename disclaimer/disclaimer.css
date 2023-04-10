@@ -1,0 +1,127 @@
+.disclaimer{
+    background: #492424;
+    border-radius: 29px;
+    margin: 2% 10% 2% 10%;
+    padding: 20px 0 100px 0; 
+
+}
+
+.disclaimer h1{
+    background: #FAAF18;
+    /* width: 100%; */
+    
+    padding-left: 70px;
+    font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150.67%;
+/* or 48px */
+
+letter-spacing: 0.025em;
+
+color: #000000;
+    /* margin-top: 100px; */
+    /* padding: 1%; */
+    
+}
+
+
+.disclaimer p{
+    font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150.67%;
+/* or 30px */
+
+letter-spacing: 0.025em;
+text-align: justify;
+color: #FFFFFF;
+
+padding-left: 100px;
+padding-right: 100px;
+
+}
+
+.disclaimer ul{
+ 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150.67%;
+    /* or 30px */
+    
+    letter-spacing: 0.025em;
+    
+    color: #FFFFFF;
+    
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.disclaimer ul li{
+    padding-bottom: 30px;
+    text-align: justify;
+
+}
+.disclaimer .buttonCenter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+#accept-button{
+background: #FAAF18;
+border-radius: 74px;
+border: 2px solid #FAAF18;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 165.96%;
+/* identical to box height, or 40px */
+cursor: pointer;
+letter-spacing: 0.025em;
+
+color: #000000;
+padding: 0 15px 0 15px;
+}
+
+#reject-button{
+    cursor: pointer;
+
+        background: #FAAF18;
+        border-radius: 74px;
+       
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 165.96%;
+        /* identical to box height, or 40px */
+        
+        letter-spacing: 0.025em;
+        
+        color: #000000;
+        padding: 0 15px 0 15px;
+        border: 2px solid #FAAF18;
+}
+
+@media screen and (max-device-width:500px) {
+
+    .disclaimer h1{
+    padding-left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 82px;
+    }
+    #accept-button{
+        font-size: 44px;
+     
+        padding: 0 15px 0 15px;
+    }
+
+    #reject-button{
+        font-size: 44px;
+        
+        padding: 0 25px 0 25px;
+    }
+}

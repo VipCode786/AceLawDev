@@ -5,7 +5,7 @@ a{
   text-decoration: none;
 }
 .header {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   /* margin-left: 10vw;
   margin-right: 10vw; */
   -webkit-box-align: center;
@@ -23,6 +23,12 @@ a{
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: center;
+
+          position: fixed;
+    height: 110px;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 10;
 }
 .header .logo {
   height: 109.2px;
@@ -187,7 +193,10 @@ a.iconClose {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-          margin-top: -30px;
+          padding-top: 80px;
+          position: fixed;
+          width: -webkit-fill-available;
+          z-index: 5;
 }
 #myLinks a {
   color: black;
@@ -293,8 +302,9 @@ a.iconClose {
 }
 @media screen and (max-width: 1050px) {
   .header {
-    margin-left: 5vw;
-    margin-right: 5vw;
+    width: -webkit-fill-available;
+  padding-left: 5vw;
+      padding-right: 5vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -308,9 +318,12 @@ a.iconClose {
         -ms-flex-pack: justify;
             justify-content: space-between;
             margin-bottom: 30px;
+            height: 80px;
+
   }
   .header .logo {
     margin-left: 0px;
+    height: 70px;
   }
   .header .menubar {
     display: none;
@@ -321,6 +334,8 @@ a.iconClose {
   }
   .header .topnav a.icon {
     display: block;
+    padding: 5px 10px;
+
   }
 
   #myLinks a {
