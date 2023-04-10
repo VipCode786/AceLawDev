@@ -15,3 +15,14 @@ function getCookie(name) {
 	}
 	return null;
 }
+
+$(window).scroll(function() {     
+    var scroll = $(window).scrollTop();
+    if (scroll > 0) {
+        $(".header").addClass("Hactive");
+    }
+    else {
+        $(".header").removeClass("Hactive");
+    }
+});
+

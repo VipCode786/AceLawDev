@@ -29,7 +29,13 @@ a{
     width: 100%;
     background-color: #ffffff;
     z-index: 10;
+    
+
 }
+.Hactive {
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);   
+}
+
 .header .logo {
   height: 109.2px;
 }
